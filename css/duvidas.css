@@ -162,24 +162,43 @@ a.collapseColorA {
 
 	img.imgDuvida {
 		position: absolute; 
-		margin: -2% -40%; 
-		width: 20%;
+		margin: -2% -47%; 
+		width: 35%;
 	}
 
 	img.imgDuvida2 {
 		position: absolute; 
-		margin: 0% -45%; 
-		width: 30%;
+		margin: -2% -41%; 
+		width: 24%;
 	}
 
 	img.imgDuvida3 {
 		position: absolute; 
-		margin: 0% -40%; 
+		margin: -2% -40%; 
 		width: 20%;
+	}
+
+	img.imgDuvida4 {
+	position: absolute; 
+	margin: 0% -45%; 
+	width: 30%;
+	}
+
+	img.imgDuvida5 {
+	position: absolute; 
+	margin: 0% -43%; 
+	width: 25%;
+	}
+
+	img.imgDuvida6 {
+	position: absolute; 
+	margin: -2% -41%; 
+	width: 25%;
 	}
 
 	.corpoTexto {
 		font-size: 0.8em;
+		text-align: justify;
 	}
 
 	.caixa {
