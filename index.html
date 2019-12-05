@@ -23,7 +23,7 @@
 			    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarCollapse">
 			        <ul class="navbar-nav ml-auto">
 			            <li class="nav-item">
-			                <a class="nav-link" href="index.html">INÍCIO</a>
+			                <a class="nav-link nav-linkcor" href="index.html">INÍCIO</a>
 			            </li>
 			            <li class="dropdown">
 			                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">RECURSOS</a>
@@ -55,7 +55,7 @@
 			        	          		</select></div>
 			        	          		<div class="col-sm-3"><select class="form-control" name="d" form="formsearch" onchange="checkDescritors(d.value,a.value)">
 			        	          			<option value="" selected>Disciplina</option>
-			        	          			<option value="lp">Lingua Portuguesa</option>
+			        	          			<option value="lp">Língua Portuguesa</option>
 			        	          			<option value="mat">Matemática</option>
 			        	          		</select></div>
 			        	          		<div class="col-sm-2"><select class="form-control" name="a" form="formsearch" onchange="checkDescritors(d.value,a.value)">
@@ -123,7 +123,7 @@
 
 		<!--recursos android-->
 		<div id="recursosandroid">
-			<h4 id="titulodispositivo"><a href="buscaandroid.html">RECURSOS PARA ANDROID</a></h4>
+			<h4 id="titulodispositivo"><a href="buscaandroid.html">APLICATIVOS PARA ANDROID</a></h4>
 			<div class="row" id="rowAndroid">
 				<div class="col-sm-1">
 					<img id="botaosliderEsquerda" onclick="scrollToLeft('#randroidcontainer')" src="img/home/esquerda.png"/>
@@ -243,16 +243,17 @@
 
 		<!--download offline-->
 		<div id="downloadOffline">
-			<div class="row">
-				<div class="col-sm-4">
+			<div style="display: inline-block;">
 					<img class="aires" src="img/aires.png">
-				</div>
-				<div class="col-sm-8">
-					<h3><i>Carregue todo o repositório em um pendrive e leve-o para qualquer lugar</i></h3>
-					<br>
-					<input class="btn btn-primary btn-lg" type="button" value="Download">					
-				</div>
 			</div>
+			<div style="display: inline-block; width: 60%;">
+					<h3><i>Carregue todo o repositório em um pendrive e leve-o para qualquer lugar</i><br><br>
+					<input class="btn btn-primary btn-lg" type="button" value="Download" onclick="baixarRepo()">
+					<p id="msgajuda"><i><a href="duvidas.html#extrair">Clique aqui</a> e saiba como extrair os arquivos...</i></p>
+					</h3>
+					<br>					
+			 </div>
+		</div>
 
 		</div>
 
