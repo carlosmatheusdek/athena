@@ -1,82 +1,82 @@
 var recursos = []; 
 //recursos de matematica
 	var recurso1 = {
-		miniatura: "recursos/img/Matematica/Arrumeoquarto.png", 
-		nome: "Arrume o Quarto",
+		miniatura: "recursos/img/Desktop/Matematica/1/Meualbumgeometrico.png", 
+		nome: "Meu Álbum Geométrico",
 		ano: "1",
-		id: "176"
+		id: "157"
 	};
 	recursos.push(recurso1);
-	 
+
 	var recurso2 = {
-		miniatura: "recursos/img/Matematica/4Cores.png", 
-		nome: "4 Cores",
+		miniatura: "recursos/img/Desktop/Matematica/2/FazendaRived.png", 
+		nome: "Fazenda Rived",
 		ano: "2",
-		id: "191"
+		id: "158"
 	};
 	recursos.push(recurso2);
-
+	 
 	var recurso3 = {
-		miniatura: "recursos/img/Matematica/circuloMagico.png", 
+		miniatura: "recursos/img/Desktop/Matematica/3/CirculoMagico.png", 
 		nome: "Cí­rculo Mágico",
 		ano: "3",
-		id: "200"
+		id: "174"
 	};
 	recursos.push(recurso3);
 
 	var recurso4 = {
-		miniatura: "recursos/img/Matematica/Acerte.png", 
+		miniatura: "recursos/img/Desktop/Matematica/3/Acerte.png", 
 		nome: "Acerte o Resultado",
 		ano: "3",
-		id: "214"
+		id: "189"
 	};
 	recursos.push(recurso4);
 
 	var recurso5 = {
-		miniatura: "recursos/img/Matematica/ehobicho.png", 
+		miniatura: "recursos/img/Desktop/Matematica/4/EhObicho.png", 
 		nome: "Eh o Bicho",
 		ano: "4",
-		id: "230"
+		id: "201"
 	};
 	recursos.push(recurso5);
 
 	var recurso6 = {
-		miniatura: "recursos/img/Matematica/arrumeOperacoes.png", 
-		nome: "Arrume Operações",
-		ano: "6",
-		id: "250"
+		miniatura: "recursos/img/Desktop/Matematica/2/tabuadado9.png", 
+		nome: "Tabuada 9",
+		ano: "5",
+		id: "171"
 	};
 	recursos.push(recurso6);
 
 	var recurso7 = {
-		miniatura: "recursos/img/Matematica/demonstracao_da_area_do_circulo.png", 
-		nome: "Demonstração da área do cí­rculo",
-		ano: "9",
-		id: "300"
+		miniatura: "recursos/img/Desktop/Matematica/6/NumerosMultiplos.png", 
+		nome: "Números Múltiplos",
+		ano: "6",
+		id: "222"
 	};
 	recursos.push(recurso7);
 
 	var recurso8 = {
-		miniatura: "recursos/img/Matematica/tabuada9.PNG", 
-		nome: "Tabuada 9",
-		ano: "5",
+		miniatura: "recursos/img/Desktop/Matematica/7/FracoesEquivalentes_Jogo_Memoria.png", 
+		nome: "Frações Equivalentes",
+		ano: "7",
 		id: "245"
 	};
 	recursos.push(recurso8);
 
 	var recurso9 = {
-		miniatura: "recursos/img/Matematica/muroNumerico.png", 
-		nome: "Muro Numérico",
-		ano: "4",
-		id: "225"
+		miniatura: "recursos/img/Desktop/Matematica/8/Equacoes_primeiro_grau.png", 
+		nome: "Equação do 1º Grau",
+		ano: "8",
+		id: "255"
 	};
 	recursos.push(recurso9);
 
 	var recurso10 = {
-		miniatura: "recursos/img/Matematica/formas.png", 
-		nome: "Formas",
-		ano: "1",
-		id: "173"
+		miniatura: "recursos/img/Desktop/Matematica/9/Demonstracao_da_area_do_circulo.png", 
+		nome: "Demonstração da área do cí­rculo",
+		ano: "9",
+		id: "270"
 	};
 	recursos.push(recurso10);
 
@@ -84,82 +84,82 @@ var recursos = [];
 //recursos de portugues
 
 	var recurso11 = {
-		miniatura: "recursos/img/Portugues/brincandocomasvogais.png", 
+		miniatura: "recursos/img/Desktop/Portugues/1/brincandocomasvogais.png", 
 		nome: "Brincando com as vogais",
 		ano: "1",
-		id: "1"
+		id: "2"
 	};
 	recursos.push(recurso11);
-	
+
 	var recurso12 = {
-		miniatura: "recursos/img/Portugues/noimensomarazul.png", 
+		miniatura: "recursos/img/Desktop/Portugues/1/formandopalavras.png", 
+		nome: "Formando Palavras",
+		ano: "1",
+		id: "3"
+	};
+	recursos.push(recurso12);
+	
+	var recurso13 = {
+		miniatura: "recursos/img/Desktop/Portugues/3/noimensomarazul.png", 
 		nome: "No imenso mar azul",
 		ano: "1",
 		id: "50"
 	};
-	recursos.push(recurso12);
-
-	var recurso13 = {
-		miniatura: "recursos/img/Portugues/perdidoseseparados.png", 
-		nome: "Perdidos e separados",
-		ano: "6",
-		id: "100"
-	};
 	recursos.push(recurso13);
 
 	var recurso14 = {
-		miniatura: "recursos/img/Portugues/acidadecomotexto.png", 
-		nome: "A cidade como texto",
-		ano: "8",
-		id: "150"
+		miniatura: "recursos/img/Desktop/Portugues/2/viagemespacial.png", 
+		nome: "Viagem Espacial",
+		ano: "2",
+		id: "12"
 	};
 	recursos.push(recurso14);
 
 	var recurso15 = {
-		miniatura: "recursos/img/Portugues/vogais.png", 
-		nome: "Vogais",
-		ano: "1",
-		id: "10"
+		miniatura: "recursos/img/Desktop/Portugues/3/silaba.png", 
+		nome: "Sílabas",
+		ano: "3",
+		id: "29"
 	};
 	recursos.push(recurso15);
 
 	var recurso16 = {
-		miniatura: "recursos/img/Portugues/viagemespacial.png", 
-		nome: "Viagem Espacial",
-		ano: "2",
-		id: "20"
+		miniatura: "recursos/img/Desktop/Portugues/4/ruthrocha.png", 
+		nome: "Ruth Rocha",
+		ano: "4",
+		id: "61"
 	};
 	recursos.push(recurso16);
 
 	var recurso17 = {
-		miniatura: "recursos/img/Portugues/silaba.png", 
-		nome: "Sílaba",
-		ano: "3",
-		id: "38"
+		miniatura: "recursos/img/Desktop/Portugues/5/ortografiapalavrascomsc.png", 
+		nome: "Ortografia: palavras com sc [Orto e grafia]",
+		ano: "5",
+		id: "72"
 	};
 	recursos.push(recurso17);
 
 	var recurso18 = {
-		miniatura: "recursos/img/Portugues/ruthrocha.png", 
-		nome: "Ruth Rocha",
-		ano: "4",
-		id: "60"
+		miniatura: "recursos/img/Desktop/Portugues/6/vanguardas.png", 
+		nome: "Vanguardas",
+		ano: "6",
+		id: "82"
 	};
 	recursos.push(recurso18);
 
-	var recurso19 = {
-		miniatura: "recursos/img/Portugues/ortografiapalavrascomsc.png", 
-		nome: "Ortografia: palavras com sc [Orto e grafia]",
-		ano: "5",
-		id: "75"
+		var recurso19 = {
+		miniatura: "recursos/img/Desktop/Portugues/6/perdidoseseparados.png", 
+		nome: "Perdidos e separados",
+		ano: "6",
+		id: "87"
 	};
 	recursos.push(recurso19);
 
 	var recurso20 = {
-		miniatura: "recursos/img/Portugues/vanguardas.png", 
-		nome: "Vanguarda",
-		ano: "6",
-		id: "93"
+		miniatura: "recursos/img/Desktop/Portugues/8/acidadecomotexto.png", 
+		nome: "A cidade como texto",
+		ano: "8",
+		id: "128"
 	};
 	recursos.push(recurso20);
 
@@ -247,5 +247,5 @@ var recursos = [];
 		document.getElementById('recurso20').children[2].innerHTML = recursos[19].ano+"º ano";	
 		
 		function page(n) {
-			location.href="../novo-athena/recursocomputador.html?n=" + recursos[n].id;
+			location.href="../athena/recursocomputador.html?n=" + recursos[n].id;
 		}

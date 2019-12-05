@@ -39,3 +39,7 @@ function scrollToLeft(a){
 	}
 	alert($("#randroidcontainer").scrollLeft());*/
 }
+
+function baixarRepo(){
+	 window.open('\athena.rar', '_blank');
+}

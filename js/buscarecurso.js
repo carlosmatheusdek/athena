@@ -1,23 +1,23 @@
 var textoRecursosI = [];
 
 //recursos de portugues
-    var portI1 = {texto: "D1 - Localizar informações explícitas em um texto", descritor:"DPI01"};
+    var portI1 = {texto: "D1 - Localizar informações explícitas em um texto", descritor:"DPI1"};
 textoRecursosI.push(portI1);
-    var portI2 = {texto: "D2 - Estabelecer relações entre partes de um texto, identificando repetições ou substituições que contribuem para a continuidade de um texto", descritor:"DPI02"};
+    var portI2 = {texto: "D2 - Estabelecer relações entre partes de um texto, identificando repetições ou substituições que contribuem para a continuidade de um texto", descritor:"DPI2"};
 textoRecursosI.push(portI2);
-    var portI3 = {texto: "D3 - Inferir o sentido de uma palavra ou expressão", descritor:"DPI03"};
+    var portI3 = {texto: "D3 - Inferir o sentido de uma palavra ou expressão", descritor:"DPI3"};
 textoRecursosI.push(portI3);
-    var portI4 = {texto: "D4 - Inferir uma informação implícita em um texto", descritor:"DPI04"};
+    var portI4 = {texto: "D4 - Inferir uma informação implícita em um texto", descritor:"DPI4"};
 textoRecursosI.push(portI4);
-    var portI5 = {texto: "D5 - Interpretar texto com auxílio de material gráfico diverso (propagandas, quadrinhos, foto etc.)", descritor:"DPI05"};
+    var portI5 = {texto: "D5 - Interpretar texto com auxílio de material gráfico diverso (propagandas, quadrinhos, foto etc.)", descritor:"DPI5"};
 textoRecursosI.push(portI5);
-    var portI6 = {texto: "D6 - Identificar o tema de um texto", descritor:"DPI06"};
+    var portI6 = {texto: "D6 - Identificar o tema de um texto", descritor:"DPI6"};
 textoRecursosI.push(portI6);
-    var portI7 = {texto: "D7 - Identificar o conflito gerador do enredo e os elementos que constroem a narrativa", descritor:"DPI07"};
+    var portI7 = {texto: "D7 - Identificar o conflito gerador do enredo e os elementos que constroem a narrativa", descritor:"DPI7"};
 textoRecursosI.push(portI7);
-    var portI8 = {texto: "D8 - Estabelecer relação causa/conseqüência entre partes e elementos do texto", descritor:"DPI08"};
+    var portI8 = {texto: "D8 - Estabelecer relação causa/conseqüência entre partes e elementos do texto", descritor:"DPI8"};
 textoRecursosI.push(portI8);
-    var portI9 = {texto: "D9 - Identificar a finalidade de textos de diferentes gêneros", descritor:"DPI09"};
+    var portI9 = {texto: "D9 - Identificar a finalidade de textos de diferentes gêneros", descritor:"DPI9"};
 textoRecursosI.push(portI9);
     var portI10 = {texto: "D10 - Identificar as marcas linguísticas que evidenciam o locutor e o interlocutor de um texto", descritor:"DPI10"};
 textoRecursosI.push(portI10);
@@ -33,23 +33,23 @@ textoRecursosI.push(portI14);
 textoRecursosI.push(portI15);
 
 var textoRecursosII = [];
-    var portII1 = {texto: "D1 - Localizar informações explícitas em um texto", descritor:"DPII01"};
+    var portII1 = {texto: "D1 - Localizar informações explícitas em um texto", descritor:"DPII1"};
 textoRecursosII.push(portII1);
-    var portII2 = {texto: "D2 - Estabelecer relações entre partes de um texto, identificando repetições ou substituições que contribuem para a continuidade de um texto", descritor:"DPII02"};
+    var portII2 = {texto: "D2 - Estabelecer relações entre partes de um texto, identificando repetições ou substituições que contribuem para a continuidade de um texto", descritor:"DPII2"};
 textoRecursosII.push(portII2);
-    var portII3 = {texto: "D3 - Inferir o sentido de uma palavra ou expressão", descritor:"DPII03"};
+    var portII3 = {texto: "D3 - Inferir o sentido de uma palavra ou expressão", descritor:"DPII3"};
 textoRecursosII.push(portII3);
-    var portII4 = {texto: "D4 - Inferir uma informação implícita em um texto", descritor:"DPII04"};
+    var portII4 = {texto: "D4 - Inferir uma informação implícita em um texto", descritor:"DPII4"};
 textoRecursosII.push(portII4);
-    var portII5 = {texto: "D5 - Interpretar texto com auxílio de material gráfico diverso (propagandas, quadrinhos, foto etc.)", descritor:"DPII05"};
+    var portII5 = {texto: "D5 - Interpretar texto com auxílio de material gráfico diverso (propagandas, quadrinhos, foto etc.)", descritor:"DPII5"};
 textoRecursosII.push(portII5);
-    var portII6 = {texto: "D6 - Identificar o tema de um texto", descritor:"DPII06"};
+    var portII6 = {texto: "D6 - Identificar o tema de um texto", descritor:"DPII6"};
 textoRecursosII.push(portII6);
-    var portII7 = {texto: "D7 - Identificar a tese de um texto", descritor:"DPII07"};
+    var portII7 = {texto: "D7 - Identificar a tese de um texto", descritor:"DPII7"};
 textoRecursosII.push(portII7);
-    var portII8 = {texto: "D8 - Estabelecer a relação entre a tese e os argumentos oferecidos para sustentá-lá", descritor:"DPII08"};
+    var portII8 = {texto: "D8 - Estabelecer a relação entre a tese e os argumentos oferecidos para sustentá-lá", descritor:"DPII8"};
 textoRecursosII.push(portII8);
-    var portII9 = {texto: "D9 - Diferenciar as partes principais das secundárias em um texto", descritor:"DPII09"};
+    var portII9 = {texto: "D9 - Diferenciar as partes principais das secundárias em um texto", descritor:"DPII9"};
 textoRecursosII.push(portII9);
     var portII10 = {texto: "D10 - Identificar o conflito gerador do enredo e os elementos que constroem a narrativa", descritor:"DPII10"};
 textoRecursosII.push(portII10);
@@ -77,23 +77,23 @@ textoRecursosII.push(portII20);
 textoRecursosII.push(portII21);
 
 //recursos de matematica
-    var matI1 = {texto: "D1 - Identificar a localização/movimentação de objeto em mapas, croquis e outras representações gráficas", descritor:"DMI01"};
+    var matI1 = {texto: "D1 - Identificar a localização/movimentação de objeto em mapas, croquis e outras representações gráficas", descritor:"DMI1"};
 textoRecursosI.push(matI1);
-    var matI2 = {texto: "D2 - Identificar propriedades comuns e diferenças entre poliedros e corpos redondos, relacionando figuras tridimensionais com suas planificações", descritor:"DMI02"};
+    var matI2 = {texto: "D2 - Identificar propriedades comuns e diferenças entre poliedros e corpos redondos, relacionando figuras tridimensionais com suas planificações", descritor:"DMI2"};
 textoRecursosI.push(matI2);
-    var matI3 = {texto: "D3 - Identificar propriedades comuns e diferenças entre figuras bidimensionais pelo número de lados e pelos tipos de ângulos", descritor:"DMI03"};
+    var matI3 = {texto: "D3 - Identificar propriedades comuns e diferenças entre figuras bidimensionais pelo número de lados e pelos tipos de ângulos", descritor:"DMI3"};
 textoRecursosI.push(matI3);
-    var matI4 = {texto: "D4 - Identificar quadriláteros observando as relações entre seus lados (paralelos, congruentes, perpendiculares)", descritor:"DMI04"};
+    var matI4 = {texto: "D4 - Identificar quadriláteros observando as relações entre seus lados (paralelos, congruentes, perpendiculares)", descritor:"DMI4"};
 textoRecursosI.push(matI4);
-    var matI5 = {texto: "D5 - Reconhecer a consevação ou modificação de medidas dos lados, do perímetro, da área em ampliação e/ou redução de figuras poligonais usando malhas quadriculadas", descritor:"DMI05"};
+    var matI5 = {texto: "D5 - Reconhecer a consevação ou modificação de medidas dos lados, do perímetro, da área em ampliação e/ou redução de figuras poligonais usando malhas quadriculadas", descritor:"DMI5"};
 textoRecursosI.push(matI5);
-    var matI6 = {texto: "D6 - Estimar a medida de grandes utilizando unidades de medidas convencionais ou não", descritor:"DMI06"};
+    var matI6 = {texto: "D6 - Estimar a medida de grandes utilizando unidades de medidas convencionais ou não", descritor:"DMI6"};
 textoRecursosI.push(matI6);
-    var matI7 = {texto: "D7 - Resolver problemas significativos utilizando unidades de medida padronizadas como km/m/cm/mm, kg/g/mg, l/ml", descritor:"DMI07"};
+    var matI7 = {texto: "D7 - Resolver problemas significativos utilizando unidades de medida padronizadas como km/m/cm/mm, kg/g/mg, l/ml", descritor:"DMI7"};
 textoRecursosI.push(matI7);
-    var matI8 = {texto: "D8 - Estabelecer relações entre unidades de medida de tempo", descritor:"DMI08"};
+    var matI8 = {texto: "D8 - Estabelecer relações entre unidades de medida de tempo", descritor:"DMI8"};
 textoRecursosI.push(matI8);
-    var matI9 = {texto: "D9 - Estabelecer relações entre horário de início e término e/ou intervalo da duração de um evento ou acontecimento", descritor:"DMI09"};
+    var matI9 = {texto: "D9 - Estabelecer relações entre horário de início e término e/ou intervalo da duração de um evento ou acontecimento", descritor:"DMI9"};
 textoRecursosI.push(matI9);
     var matI10 = {texto: "D10 - Num problema, estabelecer trocas entre cédulas e moedas do sistema monetário brasileiro, em função de seus valores", descritor:"DMI10"};
 textoRecursosI.push(matI10);
@@ -135,23 +135,23 @@ textoRecursosI.push(matI27);
 textoRecursosI.push(matI28);
 
 //matematica 8º e 9º
-    var matII1 = {texto: "D1 - Identificar a localização/movimentação de objeto em mapas, croquis e outras representações gráficas", descritor:"DMII01"};
+    var matII1 = {texto: "D1 - Identificar a localização/movimentação de objeto em mapas, croquis e outras representações gráficas", descritor:"DMII1"};
 textoRecursosII.push(matII1);
-    var matII2 = {texto: "D2 - Identificar propriedades comuns e diferenças entre figuras bidimensionais e tridimensionais, relacionando-as com as suas planificações", descritor:"DMII02"};
+    var matII2 = {texto: "D2 - Identificar propriedades comuns e diferenças entre figuras bidimensionais e tridimensionais, relacionando-as com as suas planificações", descritor:"DMII2"};
 textoRecursosII.push(matII2);
-    var matII3 = {texto: "D3 - Identificar propriedades de triângulos pela comparação de medidas de lados e ângulos", descritor:"DMII03"};
+    var matII3 = {texto: "D3 - Identificar propriedades de triângulos pela comparação de medidas de lados e ângulos", descritor:"DMII3"};
 textoRecursosII.push(matII3);
-    var matII4 = {texto: "D4 - Identificar relação entre quadriláteros por meio de suas propriedades.", descritor:"DMII04"};
+    var matII4 = {texto: "D4 - Identificar relação entre quadriláteros por meio de suas propriedades.", descritor:"DMII4"};
 textoRecursosII.push(matII4);
-    var matII5 = {texto: "D5 - Reconhecer a conservação ou modificação de medidas dos lados, do perímetro, da área em ampliação e/ou redução de figuras poligonais usando malhas quadriculadas", descritor:"DMII05"};
+    var matII5 = {texto: "D5 - Reconhecer a conservação ou modificação de medidas dos lados, do perímetro, da área em ampliação e/ou redução de figuras poligonais usando malhas quadriculadas", descritor:"DMII5"};
 textoRecursosII.push(matII5);
-    var matII6 = {texto: "D6 - Reconhecer ângulos como mudança de direção ou giros, identificando ângulos retos e não-retos", descritor:"DMII06"};
+    var matII6 = {texto: "D6 - Reconhecer ângulos como mudança de direção ou giros, identificando ângulos retos e não-retos", descritor:"DMII6"};
 textoRecursosII.push(matII6);
-    var matII7 = {texto: "D7 - Reconhecer que as imagens de uma figura construída por uma transformação homotética são semelhantes, identificando propriedades e/ou medidas que se modificam ou não se alteram", descritor:"DMII07"};
+    var matII7 = {texto: "D7 - Reconhecer que as imagens de uma figura construída por uma transformação homotética são semelhantes, identificando propriedades e/ou medidas que se modificam ou não se alteram", descritor:"DMII7"};
 textoRecursosII.push(matII7);
-    var matII8 = {texto: "D8 - Resolver problema utilizando propriedades dos polígonos (soma de seus ângulos internos, número de diagonais, cálculo da medida de cada ângulo interno nos polígonos regulares)", descritor:"DMII08"};
+    var matII8 = {texto: "D8 - Resolver problema utilizando propriedades dos polígonos (soma de seus ângulos internos, número de diagonais, cálculo da medida de cada ângulo interno nos polígonos regulares)", descritor:"DMII8"};
 textoRecursosII.push(matII8);
-    var matII9 = {texto: "D9 - Interpretar informações apresentadas por meio de coordenadas cartesianas", descritor:"DMII09"};
+    var matII9 = {texto: "D9 - Interpretar informações apresentadas por meio de coordenadas cartesianas", descritor:"DMII9"};
 textoRecursosII.push(matII9);
     var matII10 = {texto: "D10 - Utilizar relações métricas do triângulo retângulo para resolver problemas significativos", descritor:"DMII10"};
 textoRecursosII.push(matII10);
@@ -233,7 +233,7 @@ function processData(textoParam){
 	var linhas = textoParam.split('\n');
 	for (var i=0; i < linhas.length; i++){
 	    var aux = linhas[i].split('\t');
-	    aux = {identidade:aux[0], nome:aux[1], miniatura:aux[2], resumo:aux[3], disciplina:aux[4], ano:aux[5], descritores:aux[6], linkdown:aux[7], visualizar:aux[8], tema:aux[9], origem:aux[10], autores:aux[11], idioma:aux[12], datacriacao:aux[13]};
+	    aux = {identidade:aux[0], nome:aux[1], miniatura:aux[2], tipo:aux[3], resumo:aux[4], disciplina:aux[5], ano:aux[6], descritores:aux[7], linkdown:aux[8], visualizar:aux[9], tema:aux[10], origem:aux[11], autores:aux[12], idioma:aux[13], datacriacao:aux[14]};
 	    if(String(identidade)!="null" && String(aux.identidade)!=String(identidade)){
 	    	continue;
 	    }
@@ -244,24 +244,31 @@ function processData(textoParam){
 		document.getElementById("tituloRecurso").innerHTML = recursos[0].nome;
 		document.getElementById("imagemRecurso").src = recursos[0].miniatura;
 		document.getElementById("textoRecurso").innerHTML = recursos[0].resumo;
-		var thread_descritor = recursos[0].descritores.split(';');
+		var thread_descritor = recursos[0].descritores.split('; ');
 		//alert(thread_descritor.length);
 
 		var tituloDescritoresI = '';
 		var tituloDescritoresII = '';
-		var descritoresI = [];
-		var descritoresII = [];
+		var descritoresI = '';
+        var ultimoDesc = '';
+        var ultimoDesc2 = '';
+		var descritoresII = '';
 		for (var j = 0; j < thread_descritor.length; j++) {
 			for (var k = 0; k < textoRecursosI.length; k++) {
 				//alert(textoRecursos[k]);
 				if(String(textoRecursosI[k].descritor) != "null" && String(textoRecursosI[k].descritor) != String(thread_descritor[j])){
 					continue;
 				}
-				var auxiliar = textoRecursosI[k].texto;
+                if(String(textoRecursosI[k].descritor) == String(thread_descritor[j])){
+				    var auxiliar = textoRecursosI[k].texto;
+
+                }
 			}
-			if(String(auxiliar) != "undefined"){
-				descritoresI.push('<br>'+ auxiliar);
-			}
+
+			if(String(auxiliar) != "undefined" && ultimoDesc != auxiliar){
+                descritoresI = descritoresI.concat(auxiliar, '\n');
+                ultimoDesc = auxiliar;
+            }
 
 			for (var k = 0; k < textoRecursosII.length; k++) {
 				//alert(textoRecursos[k]);
@@ -269,23 +276,27 @@ function processData(textoParam){
 					//alert(textoRecursosPII[k].texto);
 					continue;
 				}
-			var auxiliar2 = textoRecursosII[k].texto;
-			};
-			if(String(auxiliar2) != "undefined"){
-				descritoresII.push(auxiliar2 + '<br>');
+
+                if (String(textoRecursosII[k].descritor) == String(thread_descritor[j])){
+			        var auxiliar2 = textoRecursosII[k].texto;
+                }
 			}
+			if(String(auxiliar2) != "undefined" && ultimoDesc2 != auxiliar2){
+                descritoresII = descritoresII.concat(auxiliar2 + '\n');
+                ultimoDesc2 = auxiliar2;
+            }
 
 			if(descritoresI.length > 0){
-				tituloDescritoresI = 'Descritores do 4º a 5º ano';
+				tituloDescritoresI = 'Descritores do 4º/5º ano';
 			}
 			if(descritoresII.length > 0){
-				tituloDescritoresII = 'Descritores do 8º e 9º ano';
+				tituloDescritoresII = 'Descritores do 8º/9º ano';
 			}				
 			//alert(thread_descritor[j]);
 			//alert(descritoresPII.length);
 		}
-		document.getElementById("descritoresRecurso").innerHTML = '<b>'+ tituloDescritoresI + '</b>' + descritoresI + '<br>' + '<b>'+ tituloDescritoresII + '</b>' + descritoresII;
-		document.getElementById("metadadosRecurso").innerHTML = '<b> Tema: </b>' + recursos[0].tema + '<br><b> Origem: </b>' + recursos[0].origem + '<br><b> Autor (es): </b>' + recursos[0].autores + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br> <b> Data da criação:</b>' + recursos[0].datacriacao;
+		document.getElementById("descritoresRecurso").innerHTML = '<b>'+ tituloDescritoresI + '</b>' + descritoresI + '<br><br>' + '<b>'+ tituloDescritoresII + '</b>' + descritoresII;
+		document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Fonte de origem: </b>' + recursos[0].origem + '<br><b> Autoria: </b>' + recursos[0].autores + '<br> <b> Data da criação:</b>' + recursos[0].datacriacao;
 	}
 }
 

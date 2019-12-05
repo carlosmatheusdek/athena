@@ -46,15 +46,16 @@ $(document).ready(function() {
 
 function processData(textoParam){
 	var linhas = textoParam.split('\n');
-	for (var i=0; i < linhas.length; i++){
+	for (var i=1; i < linhas.length; i++){
 	    var aux = linhas[i].split('\t');
-	    aux = {identidade:String(aux[0]), nome:String(aux[1]), miniatura:String(aux[2]), resumo:String(aux[3]), disciplina:String(aux[4]), ano:String(aux[5]), descritores:String(aux[6]), linkdown:String(aux[7]), visualizar:String(aux[8]), tema:String(aux[9]), origem:String(aux[10]), autores:String(aux[11]), idioma:String(aux[12]), datacriacao:String(aux[13])};
+	    aux = {identidade:String(aux[0]), nome:String(aux[1]), miniatura:String(aux[2]), tipo:String(aux[3]), resumo:String(aux[4]), disciplina:String(aux[5]), ano:String(aux[6]), descritores:String(aux[7]), linkdown:String(aux[8]), visualizar:String(aux[9]), tema:String(aux[10]), origem:String(aux[11]), autores:String(aux[12]), idioma:String(aux[13]), datacriacao:String(aux[14])};
 	    if(String(disciplinaDesejada) != "null" && String(disciplinaDesejada) != String(aux.disciplina)){
 	    	continue;
 	    }
 	    if(String(anoDesejado)!="null" && String(aux.ano)!=String(anoDesejado)){
 	    	continue;
 	    }
+    	console.log(disciplinaDesejada, aux.disciplina);
 	    recursos.push(aux);
 	}
 
@@ -117,5 +118,5 @@ function processData(textoParam){
 
 
 function irPararecurso(n) {
-	location.href="../novo-athena/recursocomputador.html?n=" + recursos[n+pagina*8].identidade;
+	location.href="../athena/recursocomputador.html?n=" + recursos[n+pagina*8].identidade;
 }

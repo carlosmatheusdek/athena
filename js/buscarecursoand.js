@@ -252,8 +252,10 @@ function processData(textoParam){
 		var thread_descritor = recursos[0].descritores.split(',');
 		var tituloDescritoresI = '';
 		var tituloDescritoresII = '';
-		var descritoresI = [];
-		var descritoresII = [];
+		var descritoresI = '';
+		var descritoresII = '';
+        var ultimoDesc = '';
+        var ultimoDesc2 = '';
         var nenhumRecursoS = [];
 		for (var j = 0; j < thread_descritor.length; j++) {
 			for (var k = 0; k < textoRecursosI.length; k++) {
@@ -261,23 +263,29 @@ function processData(textoParam){
 				if(String(textoRecursosI[k].descritor) != "null" && String(textoRecursosI[k].descritor) != String(thread_descritor[j])){
 					continue;
 				}
-				var auxiliar = textoRecursosI[k].texto;
+
+                if(String(textoRecursosI[k].descritor) == String(thread_descritor[j])){
+				    var auxiliar = textoRecursosI[k].texto;
+                }
 			}
-			if(String(auxiliar) != "undefined"){
-				descritoresI.push('<br>'+ auxiliar);
-			}
+
+            if(String(auxiliar) != "undefined" && ultimoDesc != auxiliar){
+                descritoresI = descritoresI.concat(auxiliar, '\n');
+                ultimoDesc = auxiliar;
+            }
 
 			for (var k = 0; k < textoRecursosII.length; k++) {
 				//alert(textoRecursos[k]);
 				if(String(textoRecursosII[k].descritor) != "null" && String(textoRecursosII[k].descritor) != String(thread_descritor[j])){
 					//alert(textoRecursosPII[k].texto);
 					continue;
-			}
+			    }            
+                var auxiliar2 = textoRecursosII[k].texto;
+            }
             
-            var auxiliar2 = textoRecursosII[k].texto;
-            };
-            if(String(auxiliar2) != "undefined"){
-                descritoresII.push(auxiliar2 + '<br>');
+            if(String(auxiliar2) != "undefined" && ultimoDesc2 != auxiliar2){
+                descritoresII = descritoresII.concat(auxiliar2 + '\n');
+                ultimoDesc2 = auxiliar2;
             }
 
             for (var k = 0; k < nenhumRecurso.length; k++) {
@@ -294,16 +302,17 @@ function processData(textoParam){
 			}
 
 			if(descritoresI.length > 0){
-				tituloDescritoresI = 'Descritores do 4º a 5º ano';
+				tituloDescritoresI = 'Descritores do 4º/5º ano';
 			}
 			if(descritoresII.length > 0){
-				tituloDescritoresII = 'Descritores do 8º e 9º ano';
+				tituloDescritoresII = 'Descritores do 8º/9º ano';
 			}				
 			//alert(thread_descritor[j]);
 			//alert(descritoresPII.length);
 		}
-		document.getElementById("descritoresRecurso").innerHTML = '<b>'+ tituloDescritoresI + '</b>' + descritoresI + '<br>' + '<b>'+ tituloDescritoresII + '</b>' + descritoresII + nenhumRecursoS;
-		document.getElementById("metadadosRecurso").innerHTML = '<b> Tema: </b>' + recursos[0].tema + '<br><b> Autor(es): </b>' + recursos[0].autor + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br> <b> Data da última revisão:</b>' + recursos[0].revisao + '<br> <b> Versão do android: </b>' + recursos[0].versaoand + '<br> <b> Versão do aplicativo: </b>' + recursos[0].versaoapp + '<br> <b> Tamanho: </b>' + recursos[0].tamanho +  '<br> <b> Permissões de uso: </b>' + recursos[0].permissoes + '<br> <b> Tipo de aplicativo: </b>' + recursos[0].tipo;
+
+		document.getElementById("descritoresRecurso").innerHTML = '<b>'+ tituloDescritoresI + '</b>' + descritoresI + '<br>' + '<b><br>'+ tituloDescritoresII + '</b>' + descritoresII + nenhumRecursoS;
+		document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<br> <b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Autoria: </b>' + recursos[0].autor +  '<br> <b> Permissões de uso: </b>' + recursos[0].permissoes + '<br> <b> Tamanho: </b>' + recursos[0].tamanho + '<br> <b> Versão do android: </b>' + recursos[0].versaoand + '<br> <b> Versão do aplicativo: </b>' + recursos[0].versaoapp + '<br> <b> Data da última revisão:</b>' + recursos[0].revisao;
 	}
 }
 

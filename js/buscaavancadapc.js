@@ -14,7 +14,7 @@ function checkDescritors(materia, ano){
                 $('#t').append('<option value="DPII15">Relação entre textos</option>');
                 $('#t').append('<option value="DPII02;DPII07;DPII08;DPII12">Coerência e coesão no processamento do texto</option>'); 
                 $('#t').append('<option value="DPII13;DPII14">Relação entre recursos expressivos e efeitos de sentido</option>'); 
-                $('#t').append('<option value="DPII10">variação linguística</option>');  
+                $('#t').append('<option value="DPII10">Variação linguística</option>');  
             }else{
                 $('#t').empty();
                 $('#t').append('<option value="">Descritor</option>');
@@ -23,7 +23,7 @@ function checkDescritors(materia, ano){
                 $('#t').append('<option value="DPI20;DPI21">Relação entre textos</option>');
                 $('#t').append('<option value="DPI02;DPI10;DPI11;DPI15;DPI07;DPI08;DPI09">Coerência e coesão no processamento do texto</option>');
                 $('#t').append('<option value="DPI16;DPI17;DPI18;DPI19">Relação entre recursos expressivos e efeitos de sentido</option>');
-                $('#t').append('<option value="DPI13">variação linguística</option>');
+                $('#t').append('<option value="DPI13">Variação linguística</option>');
             }
         }else{//matematica
             if(ano >= 08){
