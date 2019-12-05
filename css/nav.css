@@ -4,6 +4,7 @@ nav{
 	margin: 0;
 	padding: 0;
 }
+
 #athenanavbar{
 	padding: 0px;
 }
@@ -25,6 +26,11 @@ nav{
 
 .nav-link{
  color: #003960!important;
+}
+
+.nav-linkcor{
+ background-color: #003960!important;
+ color: #FFFFFF!important;
 }
 
 .dropdown-menu.show{

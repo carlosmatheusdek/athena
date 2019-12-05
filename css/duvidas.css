@@ -46,20 +46,47 @@ img.imgFundo {
 
 img.imgDuvida {
 	position: absolute; 
-	margin: -25% -100%; 
-	width: 200%;
+	margin: -25% -175%; 
+	width: 350%;
 }
 
 img.imgDuvida2 {
+	position: absolute; 
+	margin: -15% -115%; 
+	width: 225%;
+}
+
+img.imgDuvida3 {
+	position: absolute; 
+	margin: -25% -115%; 
+	width: 225%;
+}
+
+img.imgDuvida4 {
 	position: absolute; 
 	margin: 0% -150%; 
 	width: 300%;
 }
 
-img.imgDuvida3 {
+img.imgDuvida5 {
+	position: absolute; 
+	margin: 0% -125%; 
+	width: 250%;
+}
+
+img.imgDuvida6 {
 	position: absolute; 
 	margin: 0% -100%; 
-	width: 200%;
+	width: 225%;
+}
+
+
+img.imgTexto {
+	max-width: 60vw;
+	position: relative;
+	left: 45%;
+	top: 0;
+	transform: translate(-50%, 0);
 }
 
 /*verdes*/

@@ -31,8 +31,12 @@ img.recursosTamanho:hover{
 
 
 img.recursosTamanho {
-	height: 60%; 
+	min-height: 100px;
+	min-width: 100px;
+	height: 100%; 
 	width: 100%;
+	max-height: 300px;
+	max-width: 300px;
 }
 
 p {
@@ -42,6 +46,10 @@ p {
 p.tituloRecurso{
 	font-size: 1.05em;
 	font-weight: 600;
+}
+
+p.tituloRecurso:hover{
+	cursor: pointer;
 }
 
 .rowRecurso {

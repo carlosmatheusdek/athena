@@ -15,7 +15,7 @@
 	padding: 0px;
 	margin-left: 15%;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 3em;
 	color: #0E89AC;
 	font-style: italic;
 	font-weight: normal;
@@ -32,7 +32,8 @@
 
 .carousel-control-prev-icon {
 	position: absolute;
-	left: 6%;
+	height: 100%;
+	left: 0%;
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230E89AC' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 	padding: 10%;
 
@@ -40,7 +41,8 @@
 
 .carousel-control-next-icon {
 	position: absolute;
-	right: 6%;
+	height: 100%;
+	right: 0%;
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230E89AC' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 	padding: 10%;
 
@@ -223,15 +225,24 @@ p {
 #downloadOffline h3 {
 	background-color: #FFFFFF;
 	opacity: 0.8;
+	margin-bottom: -22%; 
+	font-size: 3rem;
 }
 
+#msgajuda {
+	position: relative;
+	top: 3vh;
+	font-size: 14px;
+}
 
 .aires {
 /*	background-image: url("../img/aires.png");
 	background-size: 25%; 
 	background-repeat: no-repeat;*/
-	width: 50%;
 	margin, padding: 0%;
+	margin-bottom: -40%; 
+	padding-bottom: 0%; 
+	width: 100%;
 }
 
 /*#downloadOffline .col-sm-5 button{
@@ -351,5 +362,21 @@ p {
 		height: 7px;
 		width: 7px;
 		border-radius: 50%;
+	}
+
+	.aires {
+	/*	background-image: url("../img/aires.png");
+		background-size: 25%; 
+		background-repeat: no-repeat;*/
+		margin, padding: 0%;
+		margin-bottom: 1%; 
+		width: 70%;
+	}
+
+	#downloadOffline h3 {
+		background-color: #FFFFFF;
+		opacity: 0.8;
+		margin-bottom: -22%; 
+		font-size: 2rem;
 	}
 }
