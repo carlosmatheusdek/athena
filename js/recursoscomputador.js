@@ -100,18 +100,18 @@ var recursos = [];
 	recursos.push(recurso12);
 	
 	var recurso13 = {
-		miniatura: "recursos/img/Desktop/Portugues/3/noimensomarazul.png", 
-		nome: "No imenso mar azul",
-		ano: "1",
-		id: "50"
-	};
-	recursos.push(recurso13);
-
-	var recurso14 = {
 		miniatura: "recursos/img/Desktop/Portugues/2/viagemespacial.png", 
 		nome: "Viagem Espacial",
 		ano: "2",
 		id: "12"
+	};
+	recursos.push(recurso13);
+
+	var recurso14 = {
+		miniatura: "recursos/img/Desktop/Portugues/3/noimensomarazul.png", 
+		nome: "No imenso mar azul",
+		ano: "3",
+		id: "50"
 	};
 	recursos.push(recurso14);
 
