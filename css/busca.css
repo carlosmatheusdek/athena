@@ -45,9 +45,15 @@ img.recursosTamanho {
 #rMatcontainer{
 	width: 100%;
 	overflow-x:scroll;
-	overflow: -moz-scrollbars-none;
 	overflow-x: hidden;
+	overflow: -moz-scrollbars-none;
+	scrollbar-width: none;
 }
+
+#rMatcontainer > * {
+	display: flex;
+}
+
 #rMatcontainer::-webkit-scrollbar{
 	display: none;
 }
@@ -93,6 +99,11 @@ img.recursosTamanho {
 	overflow-x: hidden;
 	overflow: -moz-scrollbars-none;
 }
+
+#rPortcontainer > * {
+	display: flex;
+}
+
 #rPortcontainer::-webkit-scrollbar{
 	display: none;
 }
