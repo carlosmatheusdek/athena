@@ -1,18 +1,18 @@
 var recursos = []; 
 //recursos de matematica
 	var recurso1 = {
-		miniatura: "recursos/img/Mobile/Matematica/1/adicaoesubtracao.jpg", 
-		nome: "Adição e subtração",
+		miniatura: "recursos/img/Mobile/Matematica/1/criancasmatematicaenumeros.jpg", 
+		nome: "Crianças Matemática e Números",
 		ano: "1",
-		id: "70"
+		id: "71"
 	}; 
 	recursos.push(recurso1);
 	 
 	var recurso2 = {
-		miniatura: "recursos/img/Mobile/Matematica/2/jematematicatabuada.jpg", 
-		nome: "Jogos educativos de Matemática: adição, tabuada",
+		miniatura: "recursos/img/Mobile/Matematica/2/reidamatematicajr.jpg", 
+		nome: "Rei da Matemática Jr. Grátis",
 		ano: "2",
-		id: "75"
+		id: "77"
 	};
 	recursos.push(recurso2);
 
@@ -25,58 +25,58 @@ var recursos = [];
 	recursos.push(recurso3);
 
 	var recurso4 = {
-		miniatura: "recursos/img/Mobile/Matematica/5/lotofracoes.jpg", 
-		nome: "Loto - Frações",
-		ano: "3",
-		id: "92"
-	};
-	recursos.push(recurso4);
-
-	var recurso5 = {
 		miniatura: "recursos/img/Mobile/Matematica/4/matematicabasica.jpg", 
 		nome: "Matemática básica 1, 2 frações",
 		ano: "4",
 		id: "86"
 	};
+	recursos.push(recurso4);
+
+	var recurso5 = {
+		miniatura: "recursos/img/Mobile/Matematica/5/fracoesequivalentes.jpg", 
+		nome: "Frações equivalentes",
+		ano: "5",
+		id: "89"
+	};
 	recursos.push(recurso5);
 
 	var recurso6 = {
-		miniatura: "recursos/img/Mobile/Matematica/5/enigmamatematico.jpg", 
-		nome: "Enigma Matemático com Varas",
-		ano: "5",
-		id: "93"
+		miniatura: "recursos/img/Mobile/Matematica/6/jogosdematematica.jpg", 
+		nome: "Jogos de Matemática",
+		ano: "6",
+		id: "97"
 	};
 	recursos.push(recurso6);
 
 		var recurso7 = {
-		miniatura: "recursos/img/Mobile/Matematica/5/representarporfracoes.jpg", 
-		nome: "Representar por frações",
-		ano: "5",
-		id: "91"
+		miniatura: "recursos/img/Mobile/Matematica/7/desafiomatematico.jpg", 
+		nome: "Desafio Matemático Grátis",
+		ano: "7",
+		id: "103"
 	};
 	recursos.push(recurso7);
 
 	var recurso8 = {
-		miniatura: "recursos/img/Mobile/Matematica/6/mestredamatematica.jpg", 
-		nome: "Mestre da Matemática Jogo Educativo e Exercícios",
-		ano: "6",
-		id: "94"
+		miniatura: "recursos/img/Mobile/Matematica/8/areavolumeperimetro.jpg", 
+		nome: "Área, Volumes e Perímetros",
+		ano: "8",
+		id: "106"
 	};
 	recursos.push(recurso8);
 
 	var recurso9 = {
-		miniatura: "recursos/img/Mobile/Matematica/7/mathmaster.jpg", 
-		nome: "Math Master - Brain Quizzes & Math Puzzles",
-		ano: "7",
-		id: "104"
-	};
-	recursos.push(recurso9);
-
-	var recurso10 = {
 		miniatura: "recursos/img/Mobile/Matematica/9/mathlab.jpg", 
 		nome: "Calculadora Gráfica Mathlab",
 		ano: "9",
 		id: "112"
+	};
+	recursos.push(recurso9);
+
+	var recurso10 = {
+		miniatura: "recursos/img/Mobile/Matematica/9/geogebra.jpg", 
+		nome: "Calculadora Gráfica GeoGebra",
+		ano: "9",
+		id: "111"
 	};
 	recursos.push(recurso10);
 
@@ -84,75 +84,76 @@ var recursos = [];
 //recursos de portugues
 
 	var recurso11 = {
-		miniatura: "recursos/img/Mobile/Portugues/1/brincandocomoalfabeto.jpg", 
-		nome: "Brincando com o alfabeto",
+		miniatura: "recursos/img/Mobile/Portugues/1/asminhashistorias.jpg", 
+		nome: "As Minhas Histórias",
 		ano: "1",
-		id: "10"
+		id: "5"
 	};
 	recursos.push(recurso11);
 
 	var recurso12 = {
-		miniatura: "recursos/img/Mobile/Portugues/1/formapalavras.jpg", 
-		nome: "Forma Palavras",
-		ano: "1",
-		id: "3"
+		miniatura: "recursos/img/Mobile/Portugues/2/formacaodepalavras.jpg", 
+		nome: "Formação de Palavras",
+		ano: "2",
+		id: "13"
 	};
 	recursos.push(recurso12);
 
 	var recurso13 = {
-		miniatura: "recursos/img/Mobile/Portugues/2/lelesilabas.jpg", 
-		nome: "Lele sílabas",
-		ano: "2",
-		id: "11"
+		miniatura: "recursos/img/Mobile/Portugues/3/qualeapalavra.jpg", 
+		nome: "Qual é a Palavra",
+		ano: "3",
+		id: "24"
 	};
 	recursos.push(recurso13);
 
 	var recurso14 = {
-		miniatura: "recursos/img/Mobile/Portugues/2/luzdosaber.jpg", 
-		nome: "Luz do saber",
-		ano: "2",
-		id: "17"
+		miniatura: "recursos/img/Mobile/Portugues/4/Letroca.jpg", 
+		nome: "Letroca",
+		ano: "4",
+		id: "36"
 	};
 	recursos.push(recurso14);
 
 	var recurso15 = {
-		miniatura: "recursos/img/Mobile/Portugues/3/oraptodavaca.jpg", 
-		nome: "O rapto da vaca sagrada",
-		ano: "3",
-		id: "22"
+		miniatura: "recursos/img/Mobile/Portugues/5/portfun.jpg", 
+		nome: "PortFun - Português Divertido",
+		ano: "5",
+		id: "43"
 	};
 	recursos.push(recurso15);
 	
 	var recurso16 = {
-		miniatura: "recursos/img/Mobile/Portugues/4/mundoleitorfabulas.jpg", 
-		nome: "Mundo Leitor - Fábulas",
-		ano: "4",
-		id: "30"
+		miniatura: "recursos/img/Mobile/Portugues/6/sinonimosoff.jpg", 
+		nome: "Dicionário Sinônimos Offline",
+		ano: "6",
+		id: "45"
 	};
 	recursos.push(recurso16);
 
 	var recurso17 = {
+		
 		//G:\novo-athena22.04\recursos\img\Mobile\Portugues\inicial
-		miniatura: "recursos/img/Mobile/Portugues/5/Acentuando.jpg", 
-		nome: "Acentuando",
-		ano: "5",
-		id: "39"
+		miniatura: "recursos/img/Mobile/Portugues/7/Crianceiras.jpg", 
+		nome: "Crianceiras - Poemas de Manoel de Barros",
+		ano: "7",
+		id: "56"
 	};
 	recursos.push(recurso17);
 
 	var recurso18 = {
-		miniatura: "recursos/img/Mobile/Portugues/6/montapalavras.jpg", 
-		nome: "Monta palavras",
-		ano: "6",
-		id: "47"
+		miniatura: "recursos/img/Mobile/Portugues/8/jogoortografico.jpg", 
+		nome: "Jogo Ortográfico Educacional",
+		ano: "8",
+		id: "59"
 	};
 	recursos.push(recurso18);
 
 	var recurso19 = {
-		miniatura: "recursos/img/Mobile/Portugues/8/mistercrase.jpg", 
-		nome: "Mister Crase",
-		ano: "8",
-		id: "58"
+		miniatura: "recursos/img/Mobile/Portugues/9/quizdeportugues.jpg", 
+		nome: "Quiz de Português",
+		ano: "9",
+		id: "63"
 	};
 	recursos.push(recurso19);
 	

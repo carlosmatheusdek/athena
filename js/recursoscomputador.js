@@ -1,58 +1,58 @@
 var recursos = []; 
 //recursos de matematica
 	var recurso1 = {
-		miniatura: "recursos/img/Desktop/Matematica/1/Meualbumgeometrico.png", 
-		nome: "Meu Álbum Geométrico",
+		miniatura: "recursos/img/Desktop/Matematica/1/Retanumerica.png", 
+		nome: "Reta Numérica na Lagoa",
 		ano: "1",
-		id: "157"
+		id: "155"
 	};
 	recursos.push(recurso1);
 
 	var recurso2 = {
-		miniatura: "recursos/img/Desktop/Matematica/2/FazendaRived.png", 
-		nome: "Fazenda Rived",
+		miniatura: "recursos/img/Desktop/Matematica/2/JogodeMatematica.png", 
+		nome: "Jogo da Matemática",
 		ano: "2",
-		id: "158"
+		id: "159"
 	};
 	recursos.push(recurso2);
 	 
 	var recurso3 = {
-		miniatura: "recursos/img/Desktop/Matematica/3/CirculoMagico.png", 
-		nome: "Cí­rculo Mágico",
+		miniatura: "recursos/img/Desktop/Matematica/3/OperacaocomPalitos.png", 
+		nome: "Operações com Palitos",
 		ano: "3",
-		id: "174"
+		id: "178"
 	};
 	recursos.push(recurso3);
 
 	var recurso4 = {
-		miniatura: "recursos/img/Desktop/Matematica/3/Acerte.png", 
-		nome: "Acerte o Resultado",
-		ano: "3",
-		id: "189"
-	};
-	recursos.push(recurso4);
-
-	var recurso5 = {
 		miniatura: "recursos/img/Desktop/Matematica/4/EhObicho.png", 
 		nome: "Eh o Bicho",
 		ano: "4",
 		id: "201"
 	};
+	recursos.push(recurso4);
+
+	var recurso5 = {
+		miniatura: "recursos/img/Desktop/Matematica/5/simplificandoFracoes.png", 
+		nome: "Simplificando Frações",
+		ano: "5",
+		id: "220"
+	};
 	recursos.push(recurso5);
 
 	var recurso6 = {
-		miniatura: "recursos/img/Desktop/Matematica/2/tabuadado9.png", 
-		nome: "Tabuada 9",
-		ano: "5",
-		id: "171"
+		miniatura: "recursos/img/Desktop/Matematica/6/quadradoMagico.png", 
+		nome: "Quadrado Mágico",
+		ano: "6",
+		id: "231"
 	};
 	recursos.push(recurso6);
 
 	var recurso7 = {
-		miniatura: "recursos/img/Desktop/Matematica/6/NumerosMultiplos.png", 
-		nome: "Números Múltiplos",
-		ano: "6",
-		id: "222"
+		miniatura: "recursos/img/Desktop/Matematica/7/FracoesemPorcentagens.png", 
+		nome: "Frações em Porcentagens",
+		ano: "7",
+		id: "238"
 	};
 	recursos.push(recurso7);
 
@@ -65,18 +65,18 @@ var recursos = [];
 	recursos.push(recurso8);
 
 	var recurso9 = {
-		miniatura: "recursos/img/Desktop/Matematica/8/Equacoes_primeiro_grau.png", 
-		nome: "Equação do 1º Grau",
+		miniatura: "recursos/img/Desktop/Matematica/8/QuadradoMagico.png", 
+		nome: "Quadrado Mágico",
 		ano: "8",
-		id: "255"
+		id: "246"
 	};
 	recursos.push(recurso9);
 
 	var recurso10 = {
-		miniatura: "recursos/img/Desktop/Matematica/9/Demonstracao_da_area_do_circulo.png", 
-		nome: "Demonstração da área do cí­rculo",
+		miniatura: "recursos/img/Desktop/Matematica/9/Construtora.png", 
+		nome: "Construtora Rived",
 		ano: "9",
-		id: "270"
+		id: "259"
 	};
 	recursos.push(recurso10);
 
@@ -92,66 +92,66 @@ var recursos = [];
 	recursos.push(recurso11);
 
 	var recurso12 = {
-		miniatura: "recursos/img/Desktop/Portugues/1/formandopalavras.png", 
-		nome: "Formando Palavras",
-		ano: "1",
-		id: "3"
+		miniatura: "recursos/img/Desktop/Portugues/2/historiasfantasticas.png", 
+		nome: "Histórias Fantásticas",
+		ano: "2",
+		id: "11"
 	};
 	recursos.push(recurso12);
 	
 	var recurso13 = {
-		miniatura: "recursos/img/Desktop/Portugues/2/viagemespacial.png", 
-		nome: "Viagem Espacial",
-		ano: "2",
-		id: "12"
+		miniatura: "recursos/img/Desktop/Portugues/3/escrevendohistorias.png", 
+		nome: "Escrevendo Histórias",
+		ano: "3",
+		id: "43"
 	};
 	recursos.push(recurso13);
 
 	var recurso14 = {
-		miniatura: "recursos/img/Desktop/Portugues/3/noimensomarazul.png", 
-		nome: "No imenso mar azul",
-		ano: "3",
-		id: "50"
+		miniatura: "recursos/img/Desktop/Portugues/4/fabricadetirinhas.png", 
+		nome: "Fábrica de Tirinhas",
+		ano: "4",
+		id: "64"
 	};
 	recursos.push(recurso14);
 
 	var recurso15 = {
-		miniatura: "recursos/img/Desktop/Portugues/3/silaba.png", 
-		nome: "Sílabas",
-		ano: "3",
-		id: "29"
+		miniatura: "recursos/img/Desktop/Portugues/5/malmau.png", 
+		nome: "Mal - mau [Orto e grafia]",
+		ano: "5",
+		id: "70"
 	};
 	recursos.push(recurso15);
 
 	var recurso16 = {
-		miniatura: "recursos/img/Desktop/Portugues/4/ruthrocha.png", 
-		nome: "Ruth Rocha",
-		ano: "4",
-		id: "61"
+		miniatura: "recursos/img/Desktop/Portugues/6/arteseescrita.png", 
+		nome: "Imagens do Brasil - Artes e Escrita",
+		ano: "6",
+		id: "86"
 	};
 	recursos.push(recurso16);
 
 	var recurso17 = {
-		miniatura: "recursos/img/Desktop/Portugues/5/ortografiapalavrascomsc.png", 
-		nome: "Ortografia: palavras com sc [Orto e grafia]",
-		ano: "5",
-		id: "72"
+		miniatura: "recursos/img/Desktop/Portugues/7/publicitario.png", 
+		nome: "O Gênero publicitário",
+		ano: "7",
+		id: "95"
 	};
 	recursos.push(recurso17);
 
 	var recurso18 = {
-		miniatura: "recursos/img/Desktop/Portugues/6/vanguardas.png", 
-		nome: "Vanguardas",
-		ano: "6",
-		id: "82"
+		miniatura: "recursos/img/Desktop/Portugues/8/cafecomlingua.png", 
+		nome: "Café com Língua Portuguesa - Concordância verbal",
+		ano: "8",
+		id: "114"
 	};
 	recursos.push(recurso18);
 
 		var recurso19 = {
-		miniatura: "recursos/img/Desktop/Portugues/6/perdidoseseparados.png", 
-		nome: "Perdidos e separados",
-		ano: "6",
-		id: "87"
+		miniatura: "recursos/img/Desktop/Portugues/9/viagemaocerebrovariedadesestilisticas.png", 
+		nome: "Viagem ao Cérebro - Variedades estilísticas",
+		ano: "9",
+		id: "144"
 	};
 	recursos.push(recurso19);
 

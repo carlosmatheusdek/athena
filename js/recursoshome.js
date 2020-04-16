@@ -1,165 +1,174 @@
 	var recursos = []; 
 	var recursosAnd = [];
 	var recurso1 = {
-		miniatura: "recursos/img/Desktop/Portugues/1/brincandocomasvogais.png", 
-		nome: "Brincando com as vogais",
+		miniatura: "recursos/img/Desktop/Matematica/1/Meualbumgeometrico.png", 
+		nome: "Meu Álbum Geométrico",
 		ano: "1",
-		id: "2"
+		id: "157"
 	};
 	recursos.push(recurso1);
 
 	var recurso2 = {
-		miniatura: "recursos/img/Desktop/Matematica/1/Formas.png", 
-		nome: "Formas",
+		//port
+		miniatura: "recursos/img/Desktop/Portugues/1/deolhonalista.png", 
+		nome: "De olho na lista",
 		ano: "1",
-		id: "151"
+		id: "10"
 	};
 	recursos.push(recurso2);
-	
+
 	var recurso3 = {
-		miniatura: "recursos/img/Desktop/Portugues/3/noimensomarazul.png", 
-		nome: "No imenso mar azul",
-		ano: "3",
-		id: "40"
+		//port
+		miniatura: "recursos/img/Desktop/Portugues/2/qualeoseupedido.png", 
+		nome: "Qual é o seu pedido?",
+		ano: "2",
+		id: "25"
 	};
 	recursos.push(recurso3);
-
+	
 	var recurso4 = {
-		miniatura: "recursos/img/Desktop/Matematica/3/CirculoMagico.png", 
-		nome: "Cí­rculo Mágico",
+		//depois trocar por "eh o bicho 2.0"
+		miniatura: "recursos/img/Desktop/Matematica/3/eobicho2.png", 
+		nome: "É o Bicho 2.0",
 		ano: "3",
-		id: "174"
+		id: "274"
 	};
 	recursos.push(recurso4);
 
 	var recurso5 = {
-		miniatura: "recursos/img/Desktop/Matematica/2/tabuadado9.png", 
-		nome: "Tabuada 9",
-		ano: "5",
-		id: "171"
+		//port
+		miniatura: "recursos/img/Desktop/Portugues/4/revistadigitaldacrianca.png", 
+		nome: "Revista Digital da Criança",
+		ano: "4",
+		id: "65"
 	};
 	recursos.push(recurso5);
 
 	var recurso6 = {
-		miniatura: "recursos/img/Desktop/Portugues/6/perdidoseseparados.png", 
-		nome: "Perdidos e separados",
-		ano: "6",
-		id: "87"
+		miniatura: "recursos/img/Desktop/Matematica/5/Divertix.png", 
+		nome: "Divertix",
+		ano: "5",
+		id: "221"
 	};
 	recursos.push(recurso6);
 
 	var recurso7 = {
-		miniatura: "recursos/img/Desktop/Matematica/6/NumerosMultiplos.png", 
-		nome: "Números Múltiplos",
+		//port
+		miniatura: "recursos/img/Desktop/Portugues/6/vanguardas.png", 
+		nome: "Vanguardas",
 		ano: "6",
-		id: "222"
+		id: "82"
 	};
 	recursos.push(recurso7);
 
 	var recurso8 = {
-		miniatura: "recursos/img/Desktop/Portugues/5/quemriseusmalesespanta.png", 
-		nome: "Quem ri seus males espanta: Piadas e gatilhos",
+		miniatura: "recursos/img/Desktop/Matematica/7/AdicaoeSubcomNumerosInteiros.png", 
+		nome: "Adição e Subtração com Números Inteiros",
 		ano: "7",
-		id: "66"
+		id: "239"
 	};
 	recursos.push(recurso8);
 
 	var recurso9 = {
-		miniatura: "recursos/img/Desktop/Portugues/8/acidadecomotexto.png", 
-		nome: "A cidade como texto",
+		//port
+		miniatura: "recursos/img/Desktop/Portugues/8/porumavirgula.png", 
+		nome: "Por Uma Vírgula",
 		ano: "8",
-		id: "128"
+		id: "130"
 	};
 	recursos.push(recurso9);
 
 	var recurso10 = {
-		miniatura: "recursos/img/Desktop/Matematica/9/Demonstracao_da_area_do_circulo.png", 
-		nome: "Demonstração da área do cí­rculo",
+		miniatura: "recursos/img/Desktop/Matematica/9/Desvendando_Senha_Resolvendo_Equacoes.png", 
+		nome: "Desvendando a Senha - Resolvendo Equações",
 		ano: "9",
-		id: "270"
+		id: "264"
 	};
 	recursos.push(recurso10);
 
-
-
 //recursos android
 	var recursoA1 = {
-		miniatura: "recursos/img/Mobile/Matematica/1/adicaoesubtracao.jpg", 
-		nome: "Adição e subtração",
-		ano: "1",
-		id: "70"
-	};
-	recursosAnd.push(recursoA1);
-
-	var recursoA2 = {
-		miniatura: "recursos/img/Mobile/Portugues/1/formapalavras.jpg", 
-		nome: "Forma Palavras",
-		ano: "1",
-		id: "3"
-	};
-	recursosAnd.push(recursoA2);
-
-	var recursoA3 = {
 		miniatura: "recursos/img/Mobile/Portugues/1/brincandocomoalfabeto.jpg", 
 		nome: "Brincando com o alfabeto",
 		ano: "1",
 		id: "10"
 	};
+	recursosAnd.push(recursoA1);
+
+	var recursoA2 = {
+		//mat
+		miniatura: "recursos/img/Mobile/Matematica/2/jeformasecontar.jpg", 
+		nome: "Jogos educativos para crianças: formas e contar",
+		ano: "2",
+		id: "74"
+	};
+	recursosAnd.push(recursoA2);
+
+	var recursoA3 = {
+		miniatura: "recursos/img/Mobile/Portugues/3/oraptodavaca.jpg", 
+		nome: "O Rapto da Vaca Sagrada",
+		ano: "3",
+		id: "22"
+	};
 	recursosAnd.push(recursoA3);
 
 	var recursoA4 = {
-		miniatura: "recursos/img/Mobile/Portugues/2/luzdosaber.jpg", 
-		nome: "Luz do saber",
-		ano: "2",
-		id: "17"
+		//mat
+		miniatura: "recursos/img/Mobile/Matematica/4/mathflashcards.jpg", 
+		nome: "Math Flash Cards",
+		ano: "4",
+		id: "87"
 	};
 	recursosAnd.push(recursoA4);
 
 	var recursoA5 = {
-		miniatura: "recursos/img/Mobile/Matematica/3/jogospara2.jpg", 
-		nome: "Jogos para 2: Jogo Matemático",
-		ano: "3",
-		id: "83"
-	};
-	recursosAnd.push(recursoA5);
-
-	var recursoA6 = {
-		miniatura: "recursos/img/Mobile/Matematica/5/lotofracoes.jpg", 
-		nome: "Loto - Frações",
-		ano: "3",
-		id: "92"
-	};
-	recursosAnd.push(recursoA6);
-
-	var recursoA7 = {
-		miniatura: "recursos/img/Mobile/Matematica/4/matematicabasica.jpg", 
-		nome: "Matemática básica 1, 2 frações",
-		ano: "4",
-		id: "86"
-	};
-	recursosAnd.push(recursoA7);
-
-	var recursoA8 = {
-		miniatura: "recursos/img/Mobile/Matematica/5/enigmamatematico.jpg", 
-		nome: "Enigma Matemático com Varas",
-		ano: "5",
-		id: "93"
-	};
-	recursosAnd.push(recursoA8);
-
-	var recursoA9 = {
 		miniatura: "recursos/img/Mobile/Portugues/5/Acentuando.jpg", 
 		nome: "Acentuando",
 		ano: "5",
 		id: "39"
 	};
-	recursosAnd.push(recursoA9);
+	recursosAnd.push(recursoA5);
 
-	var recursoA10 = {
+	var recursoA6 = {
+		//mat
+		miniatura: "recursos/img/Mobile/Matematica/6/mestredamatematica.jpg", 
+		nome: "Mestre da matemática: Jogo educativo e exercícios",
+		ano: "6",
+		id: "94"
+	};
+	recursosAnd.push(recursoA6);
+
+	var recursoA7 = {
+		miniatura: "recursos/img/Mobile/Portugues/7/wordacademy.jpg", 
+		nome: "Word Academy",
+		ano: "7",
+		id: "52"
+	};
+	recursosAnd.push(recursoA7);
+
+	var recursoA8 = {
+		//mat
+		miniatura: "recursos/img/Mobile/Matematica/8/volumeareaconversao.jpg", 
+		nome: "Volume, Área e Conversão",
+		ano: "8",
+		id: "107"
+	};
+	recursosAnd.push(recursoA8);
+
+	var recursoA9 = {
 		miniatura: "recursos/img/Mobile/Portugues/9/gramaticadebolso.jpg", 
 		nome: "Gramática de bolso",
 		ano: "9",
 		id: "67"
+	};
+	recursosAnd.push(recursoA9);
+
+	var recursoA10 = {
+		//mat
+		miniatura: "recursos/img/Mobile/Matematica/9/geogebra.jpg", 
+		nome: "Calculadora Gráfica GeoGebra",
+		ano: "9",
+		id: "111"
 	};
 	recursosAnd.push(recursoA10);
 

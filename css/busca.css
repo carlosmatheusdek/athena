@@ -73,6 +73,10 @@ img.recursosTamanho {
 	margin:0px;
 	font-size: 0.8em;
 }
+
+.item {
+	cursor: pointer;
+}
 /*FIM:recursos scroll lateral Matemática*/
 
 /*INICIO:recursos scroll lateral Lingua Portuguesa*/
@@ -142,12 +146,13 @@ img.recursosTamanho {
 p.tituloRecurso{
 	font-size: 0.9em;
 	font-weight: 600;
-	height: 30%;
 }
 
 p.anoRecurso {
 	visibility: hidden;
 }
+
+
 /*FIM:COMUM DOS DOIS SLIDERS*/
 
 @media only screen and (max-width: 780px) {
@@ -193,7 +198,7 @@ p.anoRecurso {
 	.itemPort{
 		display: inline-block;
 		margin-right: 2vw;
-		width: 45vw;
+		width: 12vw;
 	}
 	#scrollbarPort{
 		width: 470vw;
