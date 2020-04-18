@@ -83,6 +83,34 @@
 	<div id="containerContent">
 		<h1 class="titulo">APLICATIVOS PARA ANDROID</h1>
 	</div>
+	<div id="containerSearchBar">
+			        	          	<p class="bavancada">Busca Avançada:</p>
+			        	          	<form name="buscaavancada" id="buscaavancada" action="resultadobuscaand.html">
+			        	          		<div class="form-row">
+			        	          		<div class="col-sm-3"><select name="d" class="form-control" form="buscaavancada" onchange="checkDescritors(d.value,a.value)">
+			        	          			<option value="" selected>Disciplina</option>
+			        	          			<option value="lp">Língua Portuguesa</option>
+			        	          			<option value="mat">Matemática</option>
+			        	          		</select></div><div class="col-sm-3"><select name="a" class="form-control" form="buscaavancada" onchange="checkDescritors(d.value,a.value)">
+			        	          			<option value="" selected>Ano</option>
+			        	          			<option value="1">1ºAno</option>
+			        	          			<option value="2">2ºAno</option>
+			        	          			<option value="3">3ºAno</option>
+			        	          			<option value="4">4ºAno</option>
+			        	          			<option value="5">5ºAno</option>
+			        	          			<option value="6">6ºAno</option>
+			        	          			<option value="7">7ºAno</option>
+			        	          			<option value="8">8ºAno</option>
+			        	          			<option value="9">9ºAno</option>
+			        	          		</select></div>
+			                            <div class="col-sm-3"><select class="form-control" name="t" id="t" form="buscaavancada" disabled="">
+			                            	<option value="" selected>Descritor</option>
+			                            	<option value="">Todos</option>
+			                            </select></div>
+			        	          		<input type="text" name="p" value="0" style="display: none">
+			        	          		<div class="col-sm-2"><input class="form-control" type="submit" value="Buscar"></div>
+			        	          	</div></form>
+			                  	</div>
 		<!--recursos matemática-->
 		<div id="recursosMatAnd">
 			<h4 id="titulodispositivo">APLICATIVOS DE MATEMÁTICA</h4>
@@ -257,6 +285,8 @@
 		<script src="js/nav.js"></script>
 		<script src="js/home.js"></script>
 		<script src="js/recursosmobile.js"></script>
+		<script src="js/buscaand.js"></script>
+		<script src="js/buscaavancadaand.js"></script>
 
 	</body>
 </html>

@@ -9,6 +9,7 @@ function checkDescritors(materia, ano){
             if(ano >= 8){
                 $('#t').empty();
                 $('#t').append('<option value="">Descritor</option>');
+                $('#t').append('<option value="">Todos</option>');
                 $('#t').append('<option value="DPII01;DPII03;DPII04;DPII06;DPII11">Procedimentos de Leitura</option>');
                 $('#t').append('<option value="DPII05;DPII09">Implicações do suporte, gênero e/ou enunciador na compreensão do texto</option>');
                 $('#t').append('<option value="DPII15">Relação entre textos</option>');
@@ -18,6 +19,7 @@ function checkDescritors(materia, ano){
             }else{
                 $('#t').empty();
                 $('#t').append('<option value="">Descritor</option>');
+                $('#t').append('<option value="">Todos</option>');
                 $('#t').append('<option value="DPI01;DPI03;DPI04;DPI06;DPI14">Procedimentos de Leitura</option>');
                 $('#t').append('<option value="DPI05;DPI12">Implicações do suporte, gênero e/ou enunciador na compreensão do texto</option>');
                 $('#t').append('<option value="DPI20;DPI21">Relação entre textos</option>');
@@ -29,6 +31,7 @@ function checkDescritors(materia, ano){
             if(ano >= 8){
                 $('#t').empty();
                 $('#t').append('<option value="">Descritor</option>');
+                $('#t').append('<option value="">Todos</option>');
                 $('#t').append('<option value="DMII01;DMII02;DMII03;DMII04;DMII05">Espaço e forma</option>');
                 $('#t').append('<option value="DMII06;DMII07;DMII08;DMII09;DMII10;DMII11;DMII12">Grandezas e medidas</option>');
                 $('#t').append('<option value="DMII13;DMII14;DMII15;DMII16;DMII17;DMII18;DMII19;DMII20;DMII21;DMII22;DMII23;DMII24;DMII25;DMII26">Números e operações - álgebra e funções</option>'); 
@@ -37,6 +40,7 @@ function checkDescritors(materia, ano){
             else{
                 $('#t').empty();
                 $('#t').append('<option value="">Descritor</option>');
+                $('#t').append('<option value="">Todos</option>');
                 $('#t').append('<option value="DMI01;DMI02;DMI03;DMI04;DMI05;DMI06;DMI07;DMI08;DMI09;DMI10;DMI11">Espaço e forma</option>');
                 $('#t').append('<option value="DMI12;DMI13;DMI14;DMI15">Grandezas e medidas</option>');
                 $('#t').append('<option value="DMI16;DMI17;DMI18;DMI19;DMI20;DMI21;DMI22;DMI23;DMI24;DMI25;DMI26;DMI27;DMI28;DMI29;DMI30;DMI31;DMI32;DMI33;DMI34;DMI35">Números e operações - álgebra e funções</option>');

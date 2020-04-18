@@ -147,19 +147,19 @@ var recursos = [];
 	};
 	recursos.push(recurso18);
 
-		var recurso19 = {
-		miniatura: "recursos/img/Desktop/Portugues/9/viagemaocerebrovariedadesestilisticas.png", 
-		nome: "Viagem ao Cérebro - Variedades estilísticas",
-		ano: "9",
-		id: "144"
-	};
-	recursos.push(recurso19);
-
-	var recurso20 = {
+	var recurso19 = {
 		miniatura: "recursos/img/Desktop/Portugues/8/acidadecomotexto.png", 
 		nome: "A cidade como texto",
 		ano: "8",
 		id: "128"
+	};
+	recursos.push(recurso19);
+
+		var recurso20 = {
+		miniatura: "recursos/img/Desktop/Portugues/9/viagemaocerebrovariedadesestilisticas.png", 
+		nome: "Viagem ao Cérebro - Variedades estilísticas",
+		ano: "9",
+		id: "144"
 	};
 	recursos.push(recurso20);
 

@@ -16,6 +16,13 @@ img.recursosTamanho {
 	width: 96.5px; 
 	height: 130.9px;
 }
+
+
+/*Barra de Busca*/
+#containerSearchBar {
+	padding: 0 20% 4% 20%;
+}
+
 /*INICIO:recursos scroll lateral Matemática*/
 #recursosMat{
 	background-color: #DCE5FB; 

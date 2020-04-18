@@ -64,7 +64,7 @@ function processData(textoParam){
 	//alert(buscarPorDescritores);
 	if(buscarPorDescritores == true){
 	//alert("testando");
-		descritoresArray = descritoresDesejados.split(",");
+		descritoresArray = descritoresDesejados.split(";");
 		recursosComDescritoresDesejados = [];
 		for(var i=0; i < recursos.length; i++){
 			for(var j=0; j<descritoresArray.length; j++){
