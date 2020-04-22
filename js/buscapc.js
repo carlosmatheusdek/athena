@@ -1,4 +1,4 @@
-var urlString = window.location.href
+var urlString = window.location.href;
 var recursos = [];
 var url = new URL(urlString);
 var disciplinaDesejada = url.searchParams.get("d");
@@ -14,8 +14,10 @@ if(descritoresDesejados!="null" && descritoresDesejados!=""){
 
 if(String(disciplinaDesejada)=="lp"){
 	disciplinaDesejada = "Portugues";
+	$('.d :nth-child(2)').prop('selected', true);
 }else if(String(disciplinaDesejada)=="mat"){
 	disciplinaDesejada = "Matematica";
+	$('.d :nth-child(3)').prop('selected', true);
 }else{
 	disciplinaDesejada = "null";
 }
@@ -55,7 +57,6 @@ function processData(textoParam){
 	    if(String(anoDesejado)!="null" && String(aux.ano)!=String(anoDesejado)){
 	    	continue;
 	    }
-    	console.log(disciplinaDesejada, aux.disciplina);
 	    recursos.push(aux);
 	}
 

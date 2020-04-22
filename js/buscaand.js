@@ -13,9 +13,11 @@ if(descritoresDesejados!="null" && descritoresDesejados!=""){
 }
 
 if(String(disciplinaDesejada)=="lp"){
-	disciplinaDesejada = "Portugues";
+	disciplinaDesejada = "Portugues";	
+	$('.d :nth-child(2)').prop('selected', true);
 }else if(String(disciplinaDesejada)=="mat"){
 	disciplinaDesejada = "Matematica";
+	$('.d :nth-child(3)').prop('selected', true);
 }else{
 	disciplinaDesejada = "null";
 }
