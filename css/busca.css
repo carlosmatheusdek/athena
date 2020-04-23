@@ -18,9 +18,14 @@ img.recursosTamanho {
 }
 
 
+
+#t {
+	max-width: 150px;
+}
+
 /*Barra de Busca*/
 #containerSearchBar {
-	padding: 0 20% 4% 20%;
+	margin-bottom: 4%;
 }
 
 /*INICIO:recursos scroll lateral Matemática*/
@@ -176,6 +181,10 @@ p.anoRecurso {
 
 	#titulodispositivo{
 		font-size: 0.9em;
+	}
+
+	#t {
+		max-width: 100%;
 	}
 
 	/*recursos Matemática*/

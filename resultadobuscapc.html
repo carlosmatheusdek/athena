@@ -41,6 +41,7 @@
 			            <li class="nav-item">
 			                <a class="nav-link" href="sobre.html">SOBRE</a>
 			            </li>
+			            <!-- BOTÃO BUSCA DESATIVADO
 			            <li class="nav-item">
 			                <a class="nav-link nav-linkcor" data-toggle="dropdown" href="#">BUSCAR</a>
 			                <div class="dropdown-menu" id="searchBar">
@@ -74,7 +75,7 @@
 			        	          	</div></form>
 			                  	</div>
 			                </div>
-			            </li>
+			            </li> -->
 			        </ul>
 			    </div>
 			</nav>
@@ -83,16 +84,16 @@
 		<div id="containerContent">
 			<h1 class="titulo">RECURSOS PARA COMPUTADORES</h1>
 
-			<div id="containerSearchBar">
-			        	          	<p class="bavancada">Busca Avançada:</p>
-			        	          	<form name="buscaavancada" id="buscaavancada" action="resultadobuscapc.html">
-			        	          		<div class="form-row">
-			        	          		<div class="col-sm-3"><select class="form-control d" name="d" form="buscaavancada" onchange="checkDescritors(d.value,a.value)">
+			<div id="containerSearchBar" class="container ml-auto">
+			        	          	<form name="buscaavancada" id="buscaavancada" action="resultadobuscapc.html" class="form-inline">
+			        	          		<p class="bavancada">Busca Avançada:</p>
+			        	          		<div class="form-group">
+			        	          		<div><select class="form-control d" name="d" form="buscaavancada" onchange="checkDescritors(d.value,a.value)">
 			        	          			<option value="" selected>Disciplina</option>
 			        	          			<option value="lp">Língua Portuguesa</option>
 			        	          			<option value="mat">Matemática</option>
 			        	          		</select></div>
-			        	          		<div class="col-sm-3"><select class="form-control a" name="a" form="buscaavancada" onchange="checkDescritors(d.value,a.value)">
+			        	          		<div><select class="form-control a" name="a" form="buscaavancada" onchange="checkDescritors(d.value,a.value)">
 			        	          			<option value="" selected>Ano</option>
 			        	          			<option value="1">1ºAno</option>
 			        	          			<option value="2">2ºAno</option>
@@ -104,12 +105,12 @@
 			        	          			<option value="8">8ºAno</option>
 			        	          			<option value="9">9ºAno</option>
 			        	          		</select></div>
-			                            <div class="col-sm-3"><select class="form-control" name="t" id="t" form="buscaavancada" disabled="">
+			                            <div><select class="form-control" name="t" id="t" form="buscaavancada" disabled="">
 			                            	<option value="" selected>Descritor</option>
 			                            	<option value="" >Todos</option>
 			                            </select></div>
 			        	          		<input type="text" name="p" value="0" style="display: none">
-			        	          		<div class="col-sm-2"><input class="form-control" type="submit" value="Buscar"></div>
+			        	          		<div><input class="form-control" type="submit" value="Buscar"></div>
 			        	          	</div></form>
 			                  	</div>
 			<p id="nenhumRecurso">Nenhum recurso encontrado</p>

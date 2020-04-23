@@ -51,7 +51,9 @@ p {
 
 
 p.tituloRecurso{
-	font-size: 1.05em;
+	width: 200px;
+	max-width: 100%;
+	font-size: 1em;
 	font-weight: 600;
 }
 

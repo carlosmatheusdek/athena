@@ -9,80 +9,74 @@
 	recursos.push(recurso1);
 
 	var recurso2 = {
-		//port
-		miniatura: "recursos/img/Desktop/Portugues/1/deolhonalista.png", 
-		nome: "De olho na lista",
-		ano: "1",
-		id: "10"
-	};
-	recursos.push(recurso2);
-
-	var recurso3 = {
-		//port
 		miniatura: "recursos/img/Desktop/Portugues/2/qualeoseupedido.png", 
 		nome: "Qual é o seu pedido?",
 		ano: "2",
 		id: "25"
 	};
-	recursos.push(recurso3);
+	recursos.push(recurso2);
 	
-	var recurso4 = {
-		//depois trocar por "eh o bicho 2.0"
+	var recurso3 = {
 		miniatura: "recursos/img/Desktop/Matematica/3/eobicho2.png", 
 		nome: "É o Bicho 2.0",
 		ano: "3",
 		id: "274"
 	};
-	recursos.push(recurso4);
+	recursos.push(recurso3);
 
-	var recurso5 = {
-		//port
+	var recurso4 = {
 		miniatura: "recursos/img/Desktop/Portugues/4/revistadigitaldacrianca.png", 
 		nome: "Revista Digital da Criança",
 		ano: "4",
 		id: "65"
 	};
-	recursos.push(recurso5);
+	recursos.push(recurso4);
 
-	var recurso6 = {
+	var recurso5 = {
 		miniatura: "recursos/img/Desktop/Matematica/5/Divertix.png", 
 		nome: "Divertix",
 		ano: "5",
 		id: "221"
 	};
-	recursos.push(recurso6);
+	recursos.push(recurso5);
 
-	var recurso7 = {
-		//port
+	var recurso6 = {
 		miniatura: "recursos/img/Desktop/Portugues/6/vanguardas.png", 
 		nome: "Vanguardas",
 		ano: "6",
 		id: "82"
 	};
-	recursos.push(recurso7);
+	recursos.push(recurso6);
 
-	var recurso8 = {
+	var recurso7 = {
 		miniatura: "recursos/img/Desktop/Matematica/7/AdicaoeSubcomNumerosInteiros.png", 
 		nome: "Adição e Subtração com Números Inteiros",
 		ano: "7",
 		id: "239"
 	};
-	recursos.push(recurso8);
+	recursos.push(recurso7);
 
-	var recurso9 = {
-		//port
+	var recurso8 = {
 		miniatura: "recursos/img/Desktop/Portugues/8/porumavirgula.png", 
 		nome: "Por Uma Vírgula",
 		ano: "8",
 		id: "130"
 	};
-	recursos.push(recurso9);
+	recursos.push(recurso8);
 
-	var recurso10 = {
+	var recurso9 = {
 		miniatura: "recursos/img/Desktop/Matematica/9/Desvendando_Senha_Resolvendo_Equacoes.png", 
 		nome: "Desvendando a Senha - Resolvendo Equações",
 		ano: "9",
 		id: "264"
+	};
+	recursos.push(recurso9);
+
+	var recurso10 = {
+		miniatura: "recursos/img/Desktop/Portugues/9/cafecomlinguaportuguesamorfossintaxe.png", 
+		nome: "Café com Língua Portuguesa - Morfossintaxe",
+		ano: "9",
+		id: "133"
 	};
 	recursos.push(recurso10);
 
