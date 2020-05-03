@@ -8,7 +8,6 @@ function checkDescritors(materia, ano){
         if(materia == 'lp'){
             if(ano >= 8){
                 $('#t').empty();
-                $('#t').append('<option value="">Descritor</option>');
                 $('#t').append('<option value="">Todos</option>');
                 $('#t').append('<option value="DPII1;DPII3;DPII4;DPII6;DPII11">Procedimentos de Leitura</option>');
                 $('#t').append('<option value="DPII5;DPII9">Implicações do suporte, gênero e/ou enunciador na compreensão do texto</option>');
@@ -18,7 +17,6 @@ function checkDescritors(materia, ano){
                 $('#t').append('<option value="DPII10">Variação linguística</option>');  
             }else{
                 $('#t').empty();
-                $('#t').append('<option value="">Descritor</option>');
                 $('#t').append('<option value="">Todos</option>');
                 $('#t').append('<option value="DPI1;DPI3;DPI4;DPI6;DPI14">Procedimentos de Leitura</option>');
                 $('#t').append('<option value="DPI5;DPI12">Implicações do suporte, gênero e/ou enunciador na compreensão do texto</option>');
@@ -30,7 +28,6 @@ function checkDescritors(materia, ano){
         }else{//matematica
             if(ano >= 8){
                 $('#t').empty();
-                $('#t').append('<option value="">Descritor</option>');
                 $('#t').append('<option value="">Todos</option>');
                 $('#t').append('<option value="DMII1;DMII2;DMII3;DMII4;DMII5">Espaço e forma</option>');
                 $('#t').append('<option value="DMII6;DMII7;DMII8;DMII9;DMII10;DMII11;DMII12">Grandezas e medidas</option>');
@@ -39,7 +36,6 @@ function checkDescritors(materia, ano){
             }
             else{
                 $('#t').empty();
-                $('#t').append('<option value="">Descritor</option>');
                 $('#t').append('<option value="">Todos</option>');
                 $('#t').append('<option value="DMI1;DMI2;DMI3;DMI4;DMI5;DMI6;DMI7;DMI8;DMI9;DMI10;DMI11">Espaço e forma</option>');
                 $('#t').append('<option value="DMI12;DMI13;DMI14;DMI15">Grandezas e medidas</option>');
