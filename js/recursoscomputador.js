@@ -124,10 +124,10 @@ var recursos = [];
 	recursos.push(recurso15);
 
 	var recurso16 = {
-		miniatura: "recursos/img/Desktop/Portugues/6/arteseescrita.png", 
-		nome: "Imagens do Brasil - Artes e Escrita",
+		miniatura: "recursos/img/Desktop/Portugues/6/portuguespopular.png", 
+		nome: "Português popular",
 		ano: "6",
-		id: "86"
+		id: "83"
 	};
 	recursos.push(recurso16);
 
