@@ -88,7 +88,7 @@
   <div class="panel-group" id="accordion">
 		  	    <div class="content">
 		  	    	<!--card-->
-		  	    	<div class="row caixa bordaV">
+		  	    	<div  class="row caixa bordaV">
 		  	    		<div class="col-sm-2">
 		  	    			<div class="imagens col-sm-2">
 		  	    				<img class="imgFundo" src="img/faq/verde.png">
@@ -96,10 +96,10 @@
 		  	    			</div>
 		  	    		</div>
 		  	    		<div class="col-sm-10">
-		  	    						    <div class="panel panel-default boxie"> <!--abre a caixa-->
+		  	    						    <div id = "caixa1" class="panel panel-default boxie"> <!--abre a caixa-->
 										    <div class="panel-heading">
 										    <h4 class="panel-title titulo4V">
-										          <a class="dropdown-toggle collapseColorV" data-toggle="collapse" data-parent="#accordion" href="#collapse1">COMO POSSO FAZER O DOWNLOAD DOS RECURSOS PARA COMPUTADOR?</a>
+										          <a class="dropdown-toggle collapseColorV" data-toggle="collapse" data-parent="#accordion" href="#collapse1" >COMO POSSO FAZER O DOWNLOAD DOS RECURSOS PARA COMPUTADOR?</a>
 										    </h4>
 										    </div>
 										    <div id="collapse1" class="panel-collapse collapse in">
@@ -211,9 +211,9 @@
 		  	    			</div>
 		  	    		</div>
 		  	    		<div class="col-sm-10">
-		  	    						    <div  class="panel panel-default boxie"> <!--abre a caixa-->
+		  	    						    <div id = "flashprojector" class="panel panel-default boxie"> <!--abre a caixa-->
 										    <div class="panel-heading">
-										    <h4 class="panel-title titulo4A"> <a class="dropdown-toggle collapseColorA" data-toggle="collapse" data-parent="#accordion" href="#collapse4">O ATHENA PRECISA DE ALGUM PROGRAMA ESPECÍFICO PARA A EXECUÇÃO DOS RED PARA COMPUTADOR? </a>
+										    <h4 class="panel-title titulo4A"> <a class="dropdown-toggle collapseColorA" data-toggle="collapse" data-parent="#accordion" href="#collapse4" onclick="window.location = '#extrair';">O ATHENA PRECISA DE ALGUM PROGRAMA ESPECÍFICO PARA A EXECUÇÃO DOS RED PARA COMPUTADOR? </a>
 										    </h4>
 										    </div>
 										    <div id="collapse4" class="panel-collapse collapse in">
@@ -422,5 +422,12 @@
 		<script src="js/bootstrap.js"></script>
 		<script src="js/sweetalert2.all.min.js"></script>
 		<script src="js/nav.js"></script>
+		<script>
+			var hash = window.location.hash;
+			var anchor = $('a[href$="'+hash+'"]');
+			if (anchor.length > 0){
+				anchor.click();
+			}
+		</script>
 	</body>
 </html>

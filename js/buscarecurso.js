@@ -243,7 +243,8 @@ function processData(textoParam){
         window.document.title = "Recurso: " + recursos[0].nome;
 		document.getElementById("tituloRecurso").innerHTML = recursos[0].nome;
 		document.getElementById("imagemRecurso").src = recursos[0].miniatura;
-		document.getElementById("textoRecurso").innerHTML = recursos[0].resumo;
+        document.getElementById("textoRecurso").innerHTML = recursos[0].resumo;
+        //+ '<br><a href = "duvidas.html#collapse6" target="_blank">clique aqui</a><br><a href = "duvidas.html#collapse4" target="_blank">clique aqui</a><br>'
 		var thread_descritor = recursos[0].descritores.split('; ');
 		//alert(thread_descritor.length);
 
