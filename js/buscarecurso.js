@@ -1,5 +1,5 @@
 var textoRecursosI = [];
-
+var textoCompatibilidade = [];
 //recursos de portugues
     var portI1 = {texto: "D1 - Localizar informações explícitas em um texto.", descritor:"DPI1"};
 textoRecursosI.push(portI1);
@@ -210,6 +210,11 @@ textoRecursosII.push(matII36);
     var matII37 = {texto: "D37 - Associar informações apresentadas em listas e/ou tabelas simples aos gráficos que as representam e vice-versa.", descritor:"DMII37"};
 textoRecursosII.push(matII37);
 
+var windows = {texto: '<img src="img/icones/windows-os.png" class = "iconeCompatibilidade"></img>', descritor: "windows"}
+textoCompatibilidade.push(windows);
+var linux = {texto: '<img src="img/icones/linux.png" class = "iconeCompatibilidade""></img>', descritor: "linux"}
+textoCompatibilidade.push(linux);
+
 //alert(textoRecursos.length);
 var url_string = window.location.href
 var url = new URL(url_string);
@@ -233,11 +238,11 @@ function processData(textoParam){
 	var linhas = textoParam.split('\n');
 	for (var i=0; i < linhas.length; i++){
 	    var aux = linhas[i].split('\t');
-	    aux = {identidade:aux[0], nome:aux[1], miniatura:aux[2], tipo:aux[3], resumo:aux[4], disciplina:aux[5], ano:aux[6], descritores:aux[7], linkdown:aux[8], visualizar:aux[9], tema:aux[10], origem:aux[11], autores:aux[12], idioma:aux[13], datacriacao:aux[14]};
+	    aux = {identidade:aux[0], nome:aux[1], miniatura:aux[2], tipo:aux[3], resumo:aux[4], disciplina:aux[5], ano:aux[6], descritores:aux[7], linkdown:aux[8], visualizar:aux[9], tema:aux[10], origem:aux[11], autores:aux[12], idioma:aux[13], datacriacao:aux[14], compatibilidade:aux[15]};
 	    if(String(identidade)!="null" && String(aux.identidade)!=String(identidade)){
 	    	continue;
-	    }
-	    recursos.push(aux);
+        }
+        recursos.push(aux);
 
 		//alert(recursos.length);
         window.document.title = "Recurso: " + recursos[0].nome;
@@ -245,7 +250,8 @@ function processData(textoParam){
 		document.getElementById("imagemRecurso").src = recursos[0].miniatura;
         document.getElementById("textoRecurso").innerHTML = recursos[0].resumo;
         //+ '<br><a href = "duvidas.html#collapse6" target="_blank">clique aqui</a><br><a href = "duvidas.html#collapse4" target="_blank">clique aqui</a><br>'
-		var thread_descritor = recursos[0].descritores.split('; ');
+        var thread_descritor = recursos[0].descritores.split('; ');
+        var thread_compatibilidade = recursos[0].compatibilidade.split('; ');
 		//alert(thread_descritor.length);
 
 		var tituloDescritoresI = '';
@@ -305,8 +311,33 @@ function processData(textoParam){
         }
 
 		
-		document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Fonte de origem: </b>' + recursos[0].origem + '<br><b> Autoria: </b>' + recursos[0].autores + '<br> <b> Data de origem:</b>' + recursos[0].datacriacao;
+        document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Fonte de origem: </b>' + recursos[0].origem + '<br><b> Autoria: </b>' + recursos[0].autores + '<br> <b> Data de origem:</b>' + recursos[0].datacriacao;
+        
+        verificaCompatibilidade(textoCompatibilidade, thread_compatibilidade);
 	}
+}   
+
+function verificaCompatibilidade(vetorSistema, vetorPlanilha){
+    var sistemas = '';
+    var ultimoDescritorCompat = '';
+    for (var j = 0; j < vetorPlanilha.length; j++) {
+        for (var k = 0; k < vetorSistema.length; k++) {
+            //alert(textoRecursos[k]);
+            if(String(vetorSistema[k].descritor) != "null" && String(vetorSistema[k].descritor) != String(vetorPlanilha[j])){
+                continue;
+            }
+            if(String(vetorSistema[k].descritor) == String(vetorPlanilha[j])){
+                var compatibilidadeAuxiliar = vetorSistema[k].texto;
+                console.log(compatibilidadeAuxiliar);
+            }
+
+        }
+        if(String(compatibilidadeAuxiliar) != "undefined" && ultimoDescritorCompat != compatibilidadeAuxiliar){
+            sistemas = sistemas.concat(compatibilidadeAuxiliar);
+            ultimoDescritorCompat = compatibilidadeAuxiliar;
+        }
+    }
+    //document.getElementById("divSistemas").innerHTML = sistemas;
 }
 
     function visualizar() {
