@@ -313,7 +313,7 @@ function processData(textoParam){
 		
         document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Fonte de origem: </b>' + recursos[0].origem + '<br><b> Autoria: </b>' + recursos[0].autores + '<br> <b> Data de origem:</b>' + recursos[0].datacriacao;
         
-        verificaCompatibilidade(textoCompatibilidade, thread_compatibilidade);
+        //verificaCompatibilidade(textoCompatibilidade, thread_compatibilidade);
 	}
 }   
 
@@ -337,7 +337,7 @@ function verificaCompatibilidade(vetorSistema, vetorPlanilha){
             ultimoDescritorCompat = compatibilidadeAuxiliar;
         }
     }
-    //document.getElementById("divSistemas").innerHTML = sistemas;
+    document.getElementById("divSistemas").innerHTML = sistemas;
 }
 
     function visualizar() {
