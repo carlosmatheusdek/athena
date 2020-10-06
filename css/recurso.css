@@ -62,28 +62,33 @@ p.texto {
 	margin: 0 1%;
 }
 
-.caixaCompatibilidade{
-	border-style: solid;
-	border-color:#0E89AC; 
-	border-width:2px ; 
-	border-radius: 5px; 
-	width: 70%; 
-	margin-left: 15%; 
-	text-align: left;
-	margin-top: 10px;
+.divCompatibilidade{
+	display: flex;
+	display:inline-flex;
+	flex-flow: row wrap; 
+	width: 100%; 
+	justify-content: center; 
+	margin-bottom: 5%;
 }
 
-.tituloCompatibilidade{
-	text-align:center;
-	margin: 10px 0 5% 0; 
-	color: #003960;
+.caixaCompatibilidade{
+	width: 70px; 
+	height: 70px; 
+	border-style: solid; 
+	border-radius: 50%; 
+	border-color:  #4e4e4e; 
+	border-width: 1px; 
+	margin: 0 10 0 10;  
+	display:inline-flex;
+	flex-flow: row wrap;
+	justify-content: center; 
+	align-content: center
 }
 
 .iconeCompatibilidade{
-	display: inline-block;
-	width: 20%;
-	margin: 0% 0 10% 20%; 
-	padding: 0;
+	flex: 1 auto;
+	margin: 1px 2px 1px 2px;
+	max-width: 35%;
 }
 
 @media only screen and (max-width: 780px) {
