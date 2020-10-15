@@ -62,7 +62,7 @@ p.texto {
 	margin: 0 1%;
 }
 
-.divCompatibilidade{
+#divCompatibilidade{
 	display: flex;
 	display:inline-flex;
 	flex-flow: row wrap; 
@@ -76,19 +76,56 @@ p.texto {
 	height: 70px; 
 	border-style: solid; 
 	border-radius: 50%; 
-	border-color:  #4e4e4e; 
+	border-color:  #b4b4b4; 
 	border-width: 1px; 
-	margin: 0 10 0 10;  
-	display:inline-flex;
-	flex-flow: row wrap;
-	justify-content: center; 
-	align-content: center
+	margin: 0 10 0 10; 
+	position:relative
 }
 
-.iconeCompatibilidade{
-	flex: 1 auto;
-	margin: 1px 2px 1px 2px;
-	max-width: 35%;
+.disposicao_1_icone{
+	align-self: center; 
+	width:60%; 
+	margin-top: 20%;
+}
+
+.disposicao_2_icones_1{
+	position:absolute; 
+	margin:0; 
+	width:35%; 
+	top:15%; 
+	left:15%
+}
+
+.disposicao_2_icones_2{
+	position:absolute; 
+	margin:0; 
+	width:40%; 
+	bottom:15%; 
+	right:15%
+}
+
+.disposicao_3_icones_1{
+	position:absolute; 
+	margin:0; 
+	width:38%; 
+	top:10%; 
+	left:15%
+}
+
+.disposicao_3_icones_2{
+	position:absolute; 
+	margin:0; 
+	width:38%; 
+	top:22%; 
+	right:5%
+}
+
+.disposicao_3_icones_3{
+	position:absolute; 
+	margin:0; 
+	width:38%; 
+	bottom:7%; 
+	right:35%
 }
 
 @media only screen and (max-width: 780px) {

@@ -1,5 +1,5 @@
 var textoRecursosI = [];
-var textoCompatibilidade = [];
+
 //recursos de portugues
     var portI1 = {texto: "D1 - Localizar informações explícitas em um texto.", descritor:"DPI1"};
 textoRecursosI.push(portI1);
@@ -210,10 +210,21 @@ textoRecursosII.push(matII36);
     var matII37 = {texto: "D37 - Associar informações apresentadas em listas e/ou tabelas simples aos gráficos que as representam e vice-versa.", descritor:"DMII37"};
 textoRecursosII.push(matII37);
 
-var windows = {texto: '<img src="img/icones/windows-os.png" class = "iconeCompatibilidade"></img>', descritor: "windows"}
-textoCompatibilidade.push(windows);
-var linux = {texto: '<img src="img/icones/linux.png" class = "iconeCompatibilidade""></img>', descritor: "linux"}
-textoCompatibilidade.push(linux);
+var textoOS = [];
+var windows = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/windows-os.png" title="Windows" class = "disposicao_1_icone"></div>', descritor: "windows"}
+textoOS.push(windows);
+var linux = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/linux.png" title="Linux" class = "disposicao_1_icone"></div>', descritor: "linux"}
+textoOS.push(linux);
+var windowsElinux = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/windows-os.png" title="Windows" class = "disposicao_2_icones_1"><img src="img/icones/linux.png" title="Linux" class = "disposicao_2_icones_2"></div>', descritor: "windowsElinux"}
+textoOS.push(windowsElinux);
+
+var textoCompatibilidade = [];
+var web = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/chrome.png" title="Chorme" class = "disposicao_3_icones_1"><img src="img/icones/mozilla.png" title="Firefox" class = "disposicao_3_icones_2"><img src="img/icones/edge.png" title="Edge" class = "disposicao_3_icones_3"></div>', descritor: "web"}
+textoCompatibilidade.push(web);
+var multimidia = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/vlc.png" title="VLC Media Player" class = "disposicao_3_icones_1"><img src="img/icones/wmp.png" title="Windows Media Player" class = "disposicao_3_icones_2"><img src="img/icones/celulloid.png" title="Celluloid" class = "disposicao_3_icones_3"></div>', descritor: "multimidia"}
+textoCompatibilidade.push(multimidia);
+var flash = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/flash.png" title="Flash Player" class = "disposicao_1_icone"></div>', descritor: "flash"}
+textoCompatibilidade.push(flash);
 
 //alert(textoRecursos.length);
 var url_string = window.location.href
@@ -238,7 +249,7 @@ function processData(textoParam){
 	var linhas = textoParam.split('\n');
 	for (var i=0; i < linhas.length; i++){
 	    var aux = linhas[i].split('\t');
-	    aux = {identidade:aux[0], nome:aux[1], miniatura:aux[2], tipo:aux[3], resumo:aux[4], disciplina:aux[5], ano:aux[6], descritores:aux[7], linkdown:aux[8], visualizar:aux[9], tema:aux[10], origem:aux[11], autores:aux[12], idioma:aux[13], datacriacao:aux[14], compatibilidade:aux[15]};
+	    aux = {identidade:aux[0], nome:aux[1], miniatura:aux[2], tipo:aux[3], resumo:aux[4], disciplina:aux[5], ano:aux[6], descritores:aux[7], os:aux[8], compatibilidade:aux[9], linkdown:aux[10], visualizar:aux[11], tema:aux[12], origem:aux[13], autores:aux[14], idioma:aux[15], datacriacao:aux[16]};
 	    if(String(identidade)!="null" && String(aux.identidade)!=String(identidade)){
 	    	continue;
         }
@@ -252,6 +263,7 @@ function processData(textoParam){
         //+ '<br><a href = "duvidas.html#collapse6" target="_blank">clique aqui</a><br><a href = "duvidas.html#collapse4" target="_blank">clique aqui</a><br>'
         var thread_descritor = recursos[0].descritores.split('; ');
         var thread_compatibilidade = recursos[0].compatibilidade.split('; ');
+        var thread_OS = recursos[0].os.split('; ')
 		//alert(thread_descritor.length);
 
 		var tituloDescritoresI = '';
@@ -312,10 +324,23 @@ function processData(textoParam){
 
 		
         document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Fonte de origem: </b>' + recursos[0].origem + '<br><b> Autoria: </b>' + recursos[0].autores + '<br> <b> Data de origem:</b>' + recursos[0].datacriacao;
-        
-        //verificaCompatibilidade(textoCompatibilidade, thread_compatibilidade);
+        sistemas = '';
+        sistemas = sistemas.concat(verificaOS(textoOS, thread_OS));
+        sistemas = sistemas.concat(verificaCompatibilidade(textoCompatibilidade, thread_compatibilidade));
+        console.log(sistemas)
+        document.getElementById("divCompatibilidade").innerHTML = sistemas;
 	}
-}   
+}
+
+function verificaOS(vetorSistema, vetorPlanilha){
+    console.log(vetorPlanilha)
+    if(vetorPlanilha.length == 2){
+        return vetorSistema[2].texto;
+    }
+    else{
+        return verificaCompatibilidade(vetorSistema, vetorPlanilha)
+    }
+}
 
 function verificaCompatibilidade(vetorSistema, vetorPlanilha){
     var sistemas = '';
@@ -337,7 +362,7 @@ function verificaCompatibilidade(vetorSistema, vetorPlanilha){
             ultimoDescritorCompat = compatibilidadeAuxiliar;
         }
     }
-    document.getElementById("divSistemas").innerHTML = sistemas;
+    return sistemas;
 }
 
     function visualizar() {
