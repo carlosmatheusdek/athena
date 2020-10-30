@@ -237,6 +237,7 @@ if(String(identidade)==""){
 }
 
 $(document).ready(function() {
+    
     $.ajax({
         type: "GET",
         url: "data/recursos_pc.tsv",
@@ -260,11 +261,10 @@ function processData(textoParam){
 		document.getElementById("tituloRecurso").innerHTML = recursos[0].nome;
 		document.getElementById("imagemRecurso").src = recursos[0].miniatura;
         document.getElementById("textoRecurso").innerHTML = recursos[0].resumo;
-        //+ '<br><a href = "duvidas.html#collapse6" target="_blank">clique aqui</a><br><a href = "duvidas.html#collapse4" target="_blank">clique aqui</a><br>'
+        
         var thread_descritor = recursos[0].descritores.split('; ');
         var thread_compatibilidade = recursos[0].compatibilidade.split('; ');
         var thread_OS = recursos[0].os.split('; ')
-		//alert(thread_descritor.length);
 
 		var tituloDescritoresI = '';
 		var tituloDescritoresII = '';
