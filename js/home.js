@@ -41,5 +41,5 @@ function scrollToLeft(a){
 }
 
 function baixarRepo(){ 
-	window.open('https://drive.google.com/u/0/uc?export=download&confirm=fYSL&id=1E054Z1ACcGm6jnCpyfQzlr5DpsegoNcY', '_blank');
+	window.open('https://drive.google.com/uc?export=download&confirm=YaGz&id=1wciSBJNT8dwWVgXlIq5D9hVyi_vurV1B', '_blank');
 }
