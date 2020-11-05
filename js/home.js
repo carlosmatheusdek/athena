@@ -41,5 +41,5 @@ function scrollToLeft(a){
 }
 
 function baixarRepo(){ 
-	window.open('https://drive.google.com/uc?export=download&confirm=YaGz&id=1wciSBJNT8dwWVgXlIq5D9hVyi_vurV1B', '_blank');
+	window.open('https://www.dropbox.com/s/ia7n1i1uigg3d8m/athena.zip?dl=1', '_blank');
 }
