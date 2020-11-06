@@ -63,69 +63,79 @@ p.texto {
 }
 
 #divCompatibilidade{
+	margin-left: -10%;
+	text-align: center;
 	display: flex;
 	display:inline-flex;
 	flex-flow: row wrap; 
-	width: 100%; 
-	justify-content: center; 
-	
+	width: 120%; 
+	justify-content: center;
+}
+
+.caixaCompatibilidade.sistemas{
+	background-image: url('../img/icones/sistemas.svg');
+}
+
+.caixaCompatibilidade.programas{
+	background-image: url('../img/icones/programas.svg');
+}
+
+.caixaCompatibilidade.navegadores{
+	background-image: url('../img/icones/navegadores.svg');
 }
 
 .caixaCompatibilidade{
-	width: 70px; 
-	height: 70px; 
-	border-style: solid; 
-	border-radius: 50%; 
-	border-color:  #b4b4b4; 
-	border-width: 1px; 
-	margin: 0 10 0 10; 
-	position:relative
+	background-size: 100%;
+	width: 90px; 
+	height: 90px; 
+	margin: 0 5 0 5; 
+	position:relative;
 }
 
 .disposicao_1_icone{
 	align-self: center; 
-	width:60%; 
-	margin-top: 20%;
+	width:50%; 
+	margin-top: 25%;
 }
 
 .disposicao_2_icones_1{
 	position:absolute; 
 	margin:0; 
-	width:35%; 
-	top:15%; 
-	left:15%
+	width:24%; 
+	top:27%; 
+	left:27%
 }
 
 .disposicao_2_icones_2{
 	position:absolute; 
 	margin:0; 
-	width:40%; 
-	bottom:15%; 
-	right:15%
+	width:29%; 
+	bottom:27%; 
+	right:24%
 }
 
 .disposicao_3_icones_1{
 	position:absolute; 
 	margin:0; 
-	width:38%; 
-	top:10%; 
-	left:15%
+	width:25%; 
+	top:24%; 
+	left:27%
 }
 
 .disposicao_3_icones_2{
 	position:absolute; 
 	margin:0; 
-	width:38%; 
-	top:22%; 
-	right:5%
+	width:25%; 
+	top:34%; 
+	right:20%
 }
 
 .disposicao_3_icones_3{
 	position:absolute; 
 	margin:0; 
-	width:38%; 
-	bottom:7%; 
-	right:35%
+	width:25%; 
+	bottom:22%; 
+	right:43%
 }
 
 @media only screen and (max-width: 780px) {

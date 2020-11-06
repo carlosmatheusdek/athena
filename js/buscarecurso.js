@@ -211,19 +211,19 @@ textoRecursosII.push(matII36);
 textoRecursosII.push(matII37);
 
 var textoOS = [];
-var windows = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/windows-os.png" title="Windows" class = "disposicao_1_icone"></div>', descritor: "windows"}
+var windows = {texto: '<div class = "caixaCompatibilidade sistemas"><img src="img/icones/windows-os.png" title="Windows" class = "disposicao_1_icone"></div>', descritor: "windows"}
 textoOS.push(windows);
-var linux = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/linux.png" title="Linux" class = "disposicao_1_icone"></div>', descritor: "linux"}
+var linux = {texto: '<div class = "caixaCompatibilidade sistemas"><img src="img/icones/linux.png" title="Linux" class = "disposicao_1_icone"></div>', descritor: "linux"}
 textoOS.push(linux);
-var windowsElinux = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/windows-os.png" title="Windows" class = "disposicao_2_icones_1"><img src="img/icones/linux.png" title="Linux" class = "disposicao_2_icones_2"></div>', descritor: "windowsElinux"}
+var windowsElinux = {texto: '<div class = "caixaCompatibilidade sistemas"><img src="img/icones/windows-os.png" title="Windows" class = "disposicao_2_icones_1"><img src="img/icones/linux.png" title="Linux" class = "disposicao_2_icones_2"></div>', descritor: "windowsElinux"}
 textoOS.push(windowsElinux);
 
 var textoCompatibilidade = [];
-var web = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/chrome.png" title="Chorme" class = "disposicao_3_icones_1"><img src="img/icones/mozilla.png" title="Firefox" class = "disposicao_3_icones_2"><img src="img/icones/edge.png" title="Edge" class = "disposicao_3_icones_3"></div>', descritor: "web"}
+var web = {texto: '<div class = "caixaCompatibilidade navegadores"><img src="img/icones/chrome.png" title="Chorme" class = "disposicao_3_icones_1"><img src="img/icones/mozilla.png" title="Firefox" class = "disposicao_3_icones_2"><img src="img/icones/edge.png" title="Edge" class = "disposicao_3_icones_3"></div>', descritor: "web"}
 textoCompatibilidade.push(web);
-var multimidia = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/vlc.png" title="VLC Media Player" class = "disposicao_3_icones_1"><img src="img/icones/wmp.png" title="Windows Media Player" class = "disposicao_3_icones_2"><img src="img/icones/celulloid.png" title="Celluloid" class = "disposicao_3_icones_3"></div>', descritor: "multimidia"}
+var multimidia = {texto: '<div class = "caixaCompatibilidade programas"><img src="img/icones/vlc.png" title="VLC Media Player" class = "disposicao_3_icones_1"><img src="img/icones/wmp.png" title="Windows Media Player" class = "disposicao_3_icones_2"><img src="img/icones/celulloid.png" title="Celluloid" class = "disposicao_3_icones_3"></div>', descritor: "multimidia"}
 textoCompatibilidade.push(multimidia);
-var flash = {texto: '<div class = "caixaCompatibilidade"><img src="img/icones/flash.png" title="Flash Player" class = "disposicao_1_icone"></div>', descritor: "flash"}
+var flash = {texto: '<div class = "caixaCompatibilidade programas"><img src="img/icones/flash.png" title="Flash Player" class = "disposicao_1_icone"></div>', descritor: "flash"}
 textoCompatibilidade.push(flash);
 
 //alert(textoRecursos.length);
